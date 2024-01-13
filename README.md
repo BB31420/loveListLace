@@ -80,7 +80,7 @@ font_path = "/usr/share/fonts/truetype/liberation/LiberationSans-Regu
 
 # Instructable: Using the App for different style stories:
 
-This instructable will guide you through modifying the provided code to focus on generating haikus and fact-based videos about bees. We'll cover changing the prompt, the models, text overlay, and background color and positioning.
+This instructable will guide you through modifying the provided code to focus on generating a video about a car salesman and a love story. We'll cover changing the prompts and app.
 
  **Example usage**
  * For a love story, use the default prompts, no query, and select the ```mis - missed connections``` category with the desired area and amount of posts

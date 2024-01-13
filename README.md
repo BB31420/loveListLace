@@ -105,12 +105,3 @@ This instructable will guide you through modifying the provided code to focus on
 
 
 
-
-
-
-
-
-
-
-
-Create a haiku about n

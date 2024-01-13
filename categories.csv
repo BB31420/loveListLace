@@ -1,0 +1,179 @@
+Abbreviation,CategoryID,Description,Type
+apa,1,apartments / housing for rent,H
+hou,2,wanted: apts,H
+com,3,general community,C
+biz,4,small biz ads,B
+for,5,general for sale - by owner,S
+sys,7,computers - by owner,S
+eve,8,events,E
+res,10,resumes / job wanted,R
+web,11,web/html/info design,J
+bus,12,business/mgmt,J
+mar,13,marketing/advertising/pr,J
+etc,15,et cetera,J
+wri,16,writing/editing,J
+roo,18,rooms & shares,H
+sha,19,wanted: room/share,H
+wan,20,wanted - by owner,S
+sof,21,software/qa/dba/etc,J
+acc,23,accounting/finance,J
+ofc,24,admin/office,J
+med,25,art/media/design,J
+hea,26,healthcare,J
+ret,27,retail/wholesale,J
+npo,28,nonprofit,J
+vol,29,volunteers,C
+act,35,activity partners,C
+rid,36,rideshare,C
+pet,37,pets,C
+cls,38,classes,E
+sub,39,sublets & temporary,H
+off,40,office & commercial,H
+prk,41,parking & storage,H
+bar,42,barter,S
+tix,44,tickets - by owner,S
+lgl,47,legal/paralegal,J
+egr,48,architect/engineer/cad,J
+sls,49,sales,J
+sad,50,systems/networking,J
+tfr,52,tv/film/video/radio,J
+hum,54,human resource,J
+tch,55,technical support,J
+kid,56,childcare,C
+edu,57,education/teaching,J
+sbw,58,wanted: sublet/temp,H
+trd,59,skilled trades/artisan,J
+gov,61,government,J
+mis,63,missed connections,C
+swp,65,housing swap,H
+cal,66,event calendar,L
+bik,68,bicycles - by owner,S
+mcy,69,motorcycles/scooters - by owner,S
+ats,70,artists,C
+muc,71,musicians,C
+gms,73,garage & moving sales,S
+sci,75,science/biotech,J
+cps,76,computer services,B
+crs,77,creative services,B
+evs,79,event services,B
+hss,80,household services,B
+lss,81,lessons & tutoring,B
+lbs,82,labor / hauling / moving,B
+sks,83,skilled trade services,B
+pol,87,politics,C
+laf,88,lost & found,C
+rnr,90,rants & raves,C
+grp,91,groups,C
+bks,92,books & magazines - by owner,S
+spo,93,sporting goods - by owner,S
+clo,94,clothing & accessories - by owner,S
+clt,95,collectibles - by owner,S
+ele,96,electronics - by owner,S
+hsh,97,household items - by owner,S
+msg,98,musical instruments - by owner,S
+vac,99,vacation rentals,H
+csr,100,customer service,J
+zip,101,free stuff,S
+lgs,103,legal services,B
+fns,104,financial services,B
+rts,105,real estate services,B
+aos,106,automotive services,B
+bab,107,baby & kid stuff - by owner,S
+tlg,108,talent gigs,G
+cwg,109,crew gigs,G
+cpg,110,computer gigs,G
+lbg,111,labor gigs,G
+wrg,112,writing gigs,G
+dmg,113,domestic gigs,G
+crg,114,creative gigs,G
+evg,115,event gigs,G
+vnn,116,local news and views,C
+emd,117,cds / dvds / vhs - by owner,S
+tls,118,tools - by owner,S
+boa,119,boats - by owner,S
+jwl,120,jewelry - by owner,S
+rew,121,wanted: real estate,H
+pts,122,auto parts - by owner,S
+rvs,124,rvs - by owner,S
+trp,125,transportation,J
+spa,126,salon/spa/fitness,J
+rej,127,real estate,J
+mnu,128,manufacturing,J
+fbh,129,food/beverage/hospitality,J
+lab,130,general labor,J
+sec,131,security,J
+tag,132,toys & games - by owner,S
+grd,133,farm & garden - by owner,S
+bfs,134,business/commercial - by owner,S
+art,135,arts & crafts - by owner,S
+mat,136,materials - by owner,S
+pho,137,photo/video - by owner,S
+bts,138,beauty services,B
+wet,139,writing / editing / translation,B
+trv,140,travel/vacation services,B
+fuo,141,furniture - by owner,S
+fud,142,furniture - by dealer,S
+reo,143,real estate - by owner,H
+reb,144,real estate - by broker,H
+cto,145,cars & trucks - by owner,S
+ctd,146,cars & trucks - by dealer,S
+app,149,appliances - by owner,S
+atq,150,antiques - by owner,S
+vgm,151,video gaming - by owner,S
+hab,152,health and beauty - by owner,S
+mob,153,cell phones - by owner,S
+fgs,154,farm & garden services,B
+pas,155,pet services,B
+mas,156,marine services,B
+cys,158,cycle services,B
+mcd,160,motorcycles/scooters - by dealer,S
+tid,161,tickets - by dealer,S
+ppd,162,appliances - by dealer,S
+ptd,163,auto parts - by dealer,S
+bod,164,boats - by dealer,S
+mod,165,cell phones - by dealer,S
+syd,166,computers - by dealer,S
+eld,167,electronics - by dealer,S
+rvd,168,rvs - by dealer,S
+atd,169,antiques - by dealer,S
+ard,170,arts & crafts - by dealer,S
+bad,171,baby & kid stuff - by dealer,S
+bid,172,bicycles - by dealer,S
+bkd,173,books & magazines - by dealer,S
+bfd,174,business/commercial - by dealer,S
+emq,175,cds / dvds / vhs - by dealer,S
+cld,176,clothing & accessories - by dealer,S
+cbd,177,collectibles - by dealer,S
+grq,178,farm & garden - by dealer,S
+fod,179,general for sale - by dealer,S
+had,180,health and beauty - by dealer,S
+hsd,181,household items - by dealer,S
+jwd,182,jewelry - by dealer,S
+mad,183,materials - by dealer,S
+msd,184,musical instruments - by dealer,S
+phd,185,photo/video - by dealer,S
+sgd,186,sporting goods - by dealer,S
+tld,187,tools - by dealer,S
+tad,188,toys & games - by dealer,S
+vgd,189,video gaming - by dealer,S
+wad,190,wanted - by dealer,S
+snw,191,"atvs, utvs, snowmobiles - by owner",S
+snd,192,"atvs, utvs, snowmobiles - by dealer",S
+hvo,193,heavy equipment - by owner,S
+hvd,194,heavy equipment - by dealer,S
+mpo,195,motorcycle parts - by owner,S
+mpd,196,motorcycle parts - by dealer,S
+bop,197,bicycle parts - by owner,S
+bdp,198,bicycle parts - by dealer,S
+sop,199,computer parts - by owner,S
+sdp,200,computer parts - by dealer,S
+bpo,201,boat parts - by owner,S
+bpd,202,boat parts - by dealer,S
+wto,203,auto wheels & tires - by owner,S
+wtd,204,auto wheels & tires - by dealer,S
+tro,205,trailers - by owner,S
+trb,206,trailers - by dealer,S
+cms,207,cell phone / mobile services,B
+avo,208,aviation - by owner,S
+avd,209,aviation - by dealer,S
+hws,210,health/wellness services,B

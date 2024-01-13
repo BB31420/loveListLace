@@ -1,0 +1,708 @@
+Abbreviation,AreaID,Country,Description,Hostname,Latitude,Longitude,Region,ShortDescription,SubAreas,Timezone
+sfo,1,US,SF bay area,sfbay,37.5,-122.25,CA,SF bay area,"[{'Abbreviation': 'sfc', 'Description': 'city of san francisco', 'ShortDescription': 'san francisco', 'SubAreaID': 1}, {'Abbreviation': 'sby', 'Description': 'south bay area', 'ShortDescription': 'south bay', 'SubAreaID': 2}, {'Abbreviation': 'eby', 'Description': 'east bay area', 'ShortDescription': 'east bay', 'SubAreaID': 3}, {'Abbreviation': 'pen', 'Description': 'peninsula', 'ShortDescription': 'peninsula', 'SubAreaID': 4}, {'Abbreviation': 'nby', 'Description': 'north bay / marin', 'ShortDescription': 'north bay', 'SubAreaID': 5}, {'Abbreviation': 'scz', 'Description': 'santa cruz co', 'ShortDescription': 'santa cruz', 'SubAreaID': 6}]",America/Los_Angeles
+sea,2,US,seattle-tacoma,seattle,47.6064,-122.331001,WA,seattle,"[{'Abbreviation': 'see', 'Description': 'seattle', 'ShortDescription': 'seattle', 'SubAreaID': 1}, {'Abbreviation': 'est', 'Description': 'eastside', 'ShortDescription': 'eastside', 'SubAreaID': 2}, {'Abbreviation': 'sno', 'Description': 'snohomish county', 'ShortDescription': 'snohomish co', 'SubAreaID': 3}, {'Abbreviation': 'kit', 'Description': 'kitsap / west puget', 'ShortDescription': 'kitsap co', 'SubAreaID': 4}, {'Abbreviation': 'tac', 'Description': 'tacoma / pierce', 'ShortDescription': 'tacoma', 'SubAreaID': 5}, {'Abbreviation': 'oly', 'Description': 'olympia / thurston', 'ShortDescription': 'olympia', 'SubAreaID': 6}, {'Abbreviation': 'skc', 'Description': 'south king co', 'ShortDescription': 'south king', 'SubAreaID': 7}]",America/Los_Angeles
+nyc,3,US,new york city,newyork,40.714199,-74.006401,NY,new york,"[{'Abbreviation': 'mnh', 'Description': 'manhattan', 'ShortDescription': 'manhattan', 'SubAreaID': 1}, {'Abbreviation': 'brk', 'Description': 'brooklyn', 'ShortDescription': 'brooklyn', 'SubAreaID': 2}, {'Abbreviation': 'que', 'Description': 'queens', 'ShortDescription': 'queens', 'SubAreaID': 3}, {'Abbreviation': 'brx', 'Description': 'bronx', 'ShortDescription': 'bronx', 'SubAreaID': 4}, {'Abbreviation': 'stn', 'Description': 'staten island', 'ShortDescription': 'staten island', 'SubAreaID': 5}, {'Abbreviation': 'jsy', 'Description': 'new jersey', 'ShortDescription': 'new jersey', 'SubAreaID': 6}, {'Abbreviation': 'lgi', 'Description': 'long island', 'ShortDescription': 'long island', 'SubAreaID': 7}, {'Abbreviation': 'wch', 'Description': 'westchester', 'ShortDescription': 'westchester', 'SubAreaID': 8}, {'Abbreviation': 'fct', 'Description': 'fairfield co, CT', 'ShortDescription': 'fairfield', 'SubAreaID': 9}]",America/New_York
+bos,4,US,boston,boston,42.358299,-71.060303,MA,boston,"[{'Abbreviation': 'gbs', 'Description': 'boston/cambridge/brookline', 'ShortDescription': 'boston/camb/brook', 'SubAreaID': 1}, {'Abbreviation': 'nwb', 'Description': 'northwest/merrimack', 'ShortDescription': 'northwest/merrimack', 'SubAreaID': 2}, {'Abbreviation': 'bmw', 'Description': 'metro west', 'ShortDescription': 'metro west', 'SubAreaID': 3}, {'Abbreviation': 'nos', 'Description': 'north shore', 'ShortDescription': 'north shore', 'SubAreaID': 4}, {'Abbreviation': 'sob', 'Description': 'south shore', 'ShortDescription': 'south shore', 'SubAreaID': 5}]",America/New_York
+lax,7,US,los angeles,losangeles,34.0522,-118.242996,CA,los angeles,"[{'Abbreviation': 'wst', 'Description': 'westside-southbay-310', 'ShortDescription': 'westside-southbay', 'SubAreaID': 1}, {'Abbreviation': 'sfv', 'Description': 'san fernando valley', 'ShortDescription': 'SF valley', 'SubAreaID': 2}, {'Abbreviation': 'lac', 'Description': 'central LA 213/323', 'ShortDescription': 'central LA', 'SubAreaID': 3}, {'Abbreviation': 'sgv', 'Description': 'san gabriel valley', 'ShortDescription': 'san gabriel valley', 'SubAreaID': 4}, {'Abbreviation': 'lgb', 'Description': 'long beach / 562', 'ShortDescription': 'long beach', 'SubAreaID': 5}, {'Abbreviation': 'ant', 'Description': 'antelope valley', 'ShortDescription': 'antelope valley', 'SubAreaID': 6}]",America/Los_Angeles
+sdo,8,US,san diego,sandiego,32.715302,-117.155998,CA,san diego,"[{'Abbreviation': 'csd', 'Description': 'city of san diego', 'ShortDescription': 'city of san diego', 'SubAreaID': 1}, {'Abbreviation': 'nsd', 'Description': 'north san diego county', 'ShortDescription': 'north SD county', 'SubAreaID': 2}, {'Abbreviation': 'esd', 'Description': 'east san diego county', 'ShortDescription': 'east SD county', 'SubAreaID': 3}, {'Abbreviation': 'ssd', 'Description': 'south san diego county', 'ShortDescription': 'south SD county', 'SubAreaID': 4}]",America/Los_Angeles
+pdx,9,US,"portland, OR",portland,45.523602,-122.675003,OR,portland,"[{'Abbreviation': 'mlt', 'Description': 'multnomah county', 'ShortDescription': 'multnomah co', 'SubAreaID': 1}, {'Abbreviation': 'wsc', 'Description': 'washington county', 'ShortDescription': 'washington co', 'SubAreaID': 2}, {'Abbreviation': 'clk', 'Description': 'clark/cowlitz WA', 'ShortDescription': 'clark/cowlitz', 'SubAreaID': 3}, {'Abbreviation': 'clc', 'Description': 'clackamas county', 'ShortDescription': 'clackamas co', 'SubAreaID': 4}, {'Abbreviation': 'nco', 'Description': 'north coast', 'ShortDescription': 'north coast', 'SubAreaID': 5}, {'Abbreviation': 'yam', 'Description': 'yamhill co', 'ShortDescription': 'yamhill co', 'SubAreaID': 6}, {'Abbreviation': 'grg', 'Description': 'columbia gorge', 'ShortDescription': 'columbia gorge', 'SubAreaID': 7}]",America/Los_Angeles
+wdc,10,US,"washington, DC",washingtondc,38.889999,-77.029999,DC,"washington, DC","[{'Abbreviation': 'doc', 'Description': 'district of columbia', 'ShortDescription': 'district of columbia', 'SubAreaID': 1}, {'Abbreviation': 'nva', 'Description': 'northern virginia', 'ShortDescription': 'northern virginia', 'SubAreaID': 2}, {'Abbreviation': 'mld', 'Description': 'maryland', 'ShortDescription': 'maryland', 'SubAreaID': 3}]",America/New_York
+chi,11,US,chicago,chicago,41.849998,-87.650002,IL,chicago,"[{'Abbreviation': 'chc', 'Description': 'city of chicago', 'ShortDescription': 'city of chicago', 'SubAreaID': 1}, {'Abbreviation': 'nch', 'Description': 'north chicagoland', 'ShortDescription': 'north chicagoland', 'SubAreaID': 2}, {'Abbreviation': 'wcl', 'Description': 'west chicagoland', 'ShortDescription': 'west chicagoland', 'SubAreaID': 3}, {'Abbreviation': 'sox', 'Description': 'south chicagoland', 'ShortDescription': 'south chicagoland', 'SubAreaID': 4}, {'Abbreviation': 'nwi', 'Description': 'northwest indiana', 'ShortDescription': 'northwest indiana', 'SubAreaID': 5}, {'Abbreviation': 'nwc', 'Description': 'northwest suburbs', 'ShortDescription': 'northwest suburbs', 'SubAreaID': 6}]",America/Chicago
+sac,12,US,sacramento,sacramento,38.581699,-121.492996,CA,sacramento,,America/Los_Angeles
+den,13,US,"denver, CO",denver,39.739201,-104.984001,CO,denver,,America/Denver
+atl,14,US,"atlanta, GA",atlanta,33.748901,-84.3881,GA,atlanta,"[{'Abbreviation': 'atl', 'Description': 'city of atlanta', 'ShortDescription': 'atlanta', 'SubAreaID': 1}, {'Abbreviation': 'nat', 'Description': 'otp north', 'ShortDescription': 'otp north', 'SubAreaID': 2}, {'Abbreviation': 'eat', 'Description': 'otp east', 'ShortDescription': 'otp east', 'SubAreaID': 3}, {'Abbreviation': 'sat', 'Description': 'otp south', 'ShortDescription': 'otp south', 'SubAreaID': 4}, {'Abbreviation': 'wat', 'Description': 'otp west', 'ShortDescription': 'otp west', 'SubAreaID': 5}]",America/New_York
+aus,15,US,"austin, TX",austin,30.266899,-97.742798,TX,austin,,America/Chicago
+van,16,CA,"vancouver, BC",vancouver,49.2505,-123.112,BC,"vancouver, BC","[{'Abbreviation': 'van', 'Description': 'city of vancouver', 'ShortDescription': 'vancouver', 'SubAreaID': 1}, {'Abbreviation': 'nvn', 'Description': 'north shore', 'ShortDescription': 'north shore', 'SubAreaID': 2}, {'Abbreviation': 'bnc', 'Description': 'burnaby/newwest', 'ShortDescription': 'burnaby/newwest', 'SubAreaID': 3}, {'Abbreviation': 'rds', 'Description': 'delta/surrey/langley', 'ShortDescription': 'delta/surrey/langley', 'SubAreaID': 4}, {'Abbreviation': 'pml', 'Description': 'tricities/pitt/maple', 'ShortDescription': 'tricities/pitt/maple', 'SubAreaID': 5}, {'Abbreviation': 'rch', 'Description': 'richmond', 'ShortDescription': 'richmond', 'SubAreaID': 6}]",America/Vancouver
+phi,17,US,philadelphia,philadelphia,39.952202,-75.1642,PA,philadelphia,,America/New_York
+phx,18,US,"phoenix, AZ",phoenix,33.448299,-112.072998,AZ,phoenix,"[{'Abbreviation': 'cph', 'Description': 'central/south phx', 'ShortDescription': 'central/south phx', 'SubAreaID': 1}, {'Abbreviation': 'evl', 'Description': 'east valley', 'ShortDescription': 'east valley', 'SubAreaID': 2}, {'Abbreviation': 'nph', 'Description': 'phx north', 'ShortDescription': 'phx north', 'SubAreaID': 3}, {'Abbreviation': 'wvl', 'Description': 'west valley', 'ShortDescription': 'west valley', 'SubAreaID': 4}]",America/Phoenix
+min,19,US,minneapolis / st paul,minneapolis,44.98,-93.263603,MN,minneapolis,"[{'Abbreviation': 'hnp', 'Description': 'hennepin county', 'ShortDescription': 'hennepin co', 'SubAreaID': 1}, {'Abbreviation': 'ram', 'Description': 'ramsey county', 'ShortDescription': 'ramsey co', 'SubAreaID': 2}, {'Abbreviation': 'ank', 'Description': 'anoka/chisago/isanti', 'ShortDescription': 'anok/chis/isa', 'SubAreaID': 3}, {'Abbreviation': 'wsh', 'Description': 'washington co / WI', 'ShortDescription': 'washington/WI', 'SubAreaID': 4}, {'Abbreviation': 'dak', 'Description': 'dakota / scott', 'ShortDescription': 'dakota/scott', 'SubAreaID': 5}, {'Abbreviation': 'csw', 'Description': 'carver/sherburne/wright', 'ShortDescription': 'carv/sher/wri', 'SubAreaID': 6}]",America/Chicago
+mia,20,US,south florida,miami,25.773899,-80.193901,FL,south florida,"[{'Abbreviation': 'mdc', 'Description': 'miami / dade county', 'ShortDescription': 'miami / dade', 'SubAreaID': 1}, {'Abbreviation': 'brw', 'Description': 'broward county', 'ShortDescription': 'broward county', 'SubAreaID': 2}, {'Abbreviation': 'pbc', 'Description': 'palm beach county', 'ShortDescription': 'palm beach co', 'SubAreaID': 3}]",America/New_York
+dal,21,US,dallas / fort worth,dallas,32.783298,-96.800003,TX,dallas,"[{'Abbreviation': 'dal', 'Description': 'dallas', 'ShortDescription': 'dallas', 'SubAreaID': 1}, {'Abbreviation': 'ftw', 'Description': 'fort worth', 'ShortDescription': 'fort worth', 'SubAreaID': 2}, {'Abbreviation': 'mdf', 'Description': 'mid cities', 'ShortDescription': 'mid cities', 'SubAreaID': 3}, {'Abbreviation': 'ndf', 'Description': 'north DFW', 'ShortDescription': 'north DFW', 'SubAreaID': 4}, {'Abbreviation': 'sdf', 'Description': 'south DFW', 'ShortDescription': 'south DFW', 'SubAreaID': 5}]",America/Chicago
+det,22,US,detroit metro,detroit,42.331402,-83.045799,MI,detroit metro,"[{'Abbreviation': 'mcb', 'Description': 'macomb county', 'ShortDescription': 'macomb co', 'SubAreaID': 1}, {'Abbreviation': 'wyn', 'Description': 'wayne county', 'ShortDescription': 'wayne co', 'SubAreaID': 2}, {'Abbreviation': 'okl', 'Description': 'oakland county', 'ShortDescription': 'oakland co', 'SubAreaID': 3}]",America/New_York
+hou,23,US,"houston, TX",houston,29.7631,-95.363098,TX,houston,,America/Chicago
+ldn,24,GB,"london, UK",london,51.517101,-0.106196,,"london, UK",,Europe/London
+tor,25,CA,toronto,toronto,43.648102,-79.404198,ON,toronto,"[{'Abbreviation': 'tor', 'Description': 'city of toronto', 'ShortDescription': 'city of toronto', 'SubAreaID': 1}, {'Abbreviation': 'drh', 'Description': 'durham region', 'ShortDescription': 'durham region', 'SubAreaID': 2}, {'Abbreviation': 'yrk', 'Description': 'york region', 'ShortDescription': 'york region', 'SubAreaID': 3}, {'Abbreviation': 'bra', 'Description': 'brampton-caledon', 'ShortDescription': 'brampton', 'SubAreaID': 4}, {'Abbreviation': 'mss', 'Description': 'mississauga', 'ShortDescription': 'mississauga', 'SubAreaID': 5}, {'Abbreviation': 'oak', 'Description': 'oakville-milton', 'ShortDescription': 'oakville', 'SubAreaID': 6}]",America/Toronto
+lvg,26,US,las vegas,lasvegas,36.174999,-115.136002,NV,las vegas,,America/Los_Angeles
+cle,27,US,"cleveland, OH",cleveland,41.499401,-81.695602,OH,cleveland,,America/New_York
+hnl,28,US,hawaii,honolulu,21.311399,-157.796005,HI,hawaii,"[{'Abbreviation': 'oah', 'Description': 'oahu', 'ShortDescription': 'oahu', 'SubAreaID': 1}, {'Abbreviation': 'big', 'Description': 'big island', 'ShortDescription': 'big island', 'SubAreaID': 2}, {'Abbreviation': 'mau', 'Description': 'maui', 'ShortDescription': 'maui', 'SubAreaID': 3}, {'Abbreviation': 'kau', 'Description': 'kauai', 'ShortDescription': 'kauai', 'SubAreaID': 4}, {'Abbreviation': 'mol', 'Description': 'molokai', 'ShortDescription': 'molokai', 'SubAreaID': 5}]",Pacific/Honolulu
+stl,29,US,"st louis, MO",stlouis,38.627701,-90.242798,MO,st louis,,America/Chicago
+ksc,30,US,"kansas city, MO",kansascity,39.099701,-94.5783,MO,kansas city,,America/Chicago
+nor,31,US,new orleans,neworleans,29.972799,-90.058998,LA,new orleans,,America/Chicago
+nsh,32,US,"nashville, TN",nashville,36.165798,-86.784401,TN,nashville,,America/Chicago
+pit,33,US,"pittsburgh, PA",pittsburgh,40.440601,-79.996101,PA,pittsburgh,,America/New_York
+bal,34,US,"baltimore, MD",baltimore,39.307999,-76.616997,MD,baltimore,,America/New_York
+cin,35,US,"cincinnati, OH",cincinnati,39.1619,-84.456902,OH,cincinnati,,America/New_York
+ral,36,US,raleigh / durham / CH,raleigh,35.7719,-78.638901,NC,raleigh,,America/New_York
+tpa,37,US,tampa bay area,tampa,28.0,-82.449997,FL,tampa bay,"[{'Abbreviation': 'hdo', 'Description': 'hernando co', 'ShortDescription': 'hernando co', 'SubAreaID': 1}, {'Abbreviation': 'hil', 'Description': 'hillsborough co', 'ShortDescription': 'hillsborough co', 'SubAreaID': 2}, {'Abbreviation': 'psc', 'Description': 'pasco co', 'ShortDescription': 'pasco co', 'SubAreaID': 3}, {'Abbreviation': 'pnl', 'Description': 'pinellas co', 'ShortDescription': 'pinellas co', 'SubAreaID': 4}]",America/New_York
+prv,38,US,rhode island,providence,41.8302,-71.409103,RI,rhode island,,America/New_York
+orl,39,US,"orlando, FL",orlando,28.538099,-81.379402,FL,orlando,,America/New_York
+buf,40,US,"buffalo, NY",buffalo,42.886398,-78.878601,NY,buffalo,,America/New_York
+cha,41,US,"charlotte, NC",charlotte,35.226898,-80.8433,NC,charlotte,,America/New_York
+col,42,US,"columbus, OH",columbus,39.961102,-82.998901,OH,"columbus, OH",,America/New_York
+fre,43,US,fresno / madera,fresno,36.747799,-119.771004,CA,fresno,,America/Los_Angeles
+htf,44,US,"hartford, CT",hartford,41.763599,-72.6856,CT,hartford,,America/New_York
+ind,45,US,indianapolis,indianapolis,39.768299,-86.158096,IN,indianapolis,,America/New_York
+mem,46,US,"memphis, TN",memphis,35.149399,-90.048897,TN,memphis,,America/Chicago
+mil,47,US,"milwaukee, WI",milwaukee,43.038898,-87.906403,WI,milwaukee,,America/Chicago
+nfk,48,US,norfolk / hampton roads,norfolk,36.84,-76.269997,VA,norfolk,,America/New_York
+mon,49,CA,"montreal, QC",montreal,45.508099,-73.555,QC,montreal,,America/Toronto
+abq,50,US,albuquerque,albuquerque,35.0844,-106.651001,NM,albuquerque,,America/Denver
+anc,51,US,anchorage / mat-su,anchorage,61.196201,-149.886002,AK,anchorage,,America/Anchorage
+boi,52,US,"boise, ID",boise,43.613602,-116.202003,ID,boise,,America/Denver
+sat,53,US,san antonio,sanantonio,29.423901,-98.493301,TX,san antonio,,America/Chicago
+okc,54,US,oklahoma city,oklahomacity,35.467499,-97.516098,OK,oklahoma city,,America/Chicago
+oma,55,US,omaha / council bluffs,omaha,41.258598,-95.9375,NE,omaha,,America/Chicago
+slc,56,US,salt lake city,saltlakecity,40.760799,-111.889999,UT,salt lake,,America/Denver
+tus,57,US,"tucson, AZ",tucson,32.221699,-110.926003,AZ,tucson,,America/Phoenix
+lou,58,US,"louisville, KY",louisville,38.2542,-85.759399,KY,louisville,,America/New_York
+alb,59,US,"albany, NY",albany,42.6525,-73.756699,NY,"albany, NY",,America/New_York
+ric,60,US,"richmond, VA",richmond,37.5383,-77.461502,VA,"richmond, VA",,America/New_York
+gbo,61,US,"greensboro, NC",greensboro,36.072498,-79.792198,NC,greensboro,,America/New_York
+sba,62,US,santa barbara,santabarbara,34.420799,-119.696999,CA,santa barbara,,America/Los_Angeles
+bak,63,US,"bakersfield, CA",bakersfield,35.373299,-119.017998,CA,bakersfield,,America/Los_Angeles
+syd,64,AU,"sydney, NSW",sydney,-33.868301,151.209,NSW,sydney,,Australia/Sydney
+mel,65,AU,"melbourne, VIC",melbourne,-37.783298,144.966995,VIC,melbourne,,Australia/Hobart
+bne,66,AU,"brisbane, QLD",brisbane,-27.4667,153.033005,QLD,brisbane,,Australia/Brisbane
+per,67,AU,"perth, WA",perth,-31.9554,115.859001,WA,perth,,Australia/Perth
+adl,68,AU,"adelaide, SA",adelaide,-34.9333,138.582993,SA,adelaide,,Australia/Adelaide
+akl,69,NZ,"auckland, NZ",auckland,-36.853001,174.764999,,auckland,,Pacific/Auckland
+tul,70,US,"tulsa, OK",tulsa,36.1539,-95.9925,OK,tulsa,,America/Chicago
+man,71,GB,"manchester, UK",manchester,53.48,-2.24,,manchester,,Europe/London
+bhx,72,GB,birmingham / west mids,birmingham,52.48,-1.91,,"birmingham, UK",,Europe/London
+gla,73,GB,glasgow,glasgow,55.869999,-4.27,,glasgow,,Europe/London
+dub,74,IE,"dublin, IE",dublin,53.3428,-6.2661,,dublin,,Europe/Dublin
+edi,75,GB,edinburgh,edinburgh,55.950001,-3.22,,edinburgh,,Europe/London
+ott,76,CA,ottawa-hull-gatineau,ottawa,45.421398,-75.691902,ON,ottawa,,America/Toronto
+clg,77,CA,"calgary, AB",calgary,51.054401,-114.067001,AB,calgary,,America/Edmonton
+edm,78,CA,"edmonton, AB",edmonton,53.547199,-113.500999,AB,edmonton,,America/Edmonton
+win,79,CA,"winnipeg, MB",winnipeg,49.883301,-97.150002,MB,winnipeg,,America/Winnipeg
+jax,80,US,"jacksonville, FL",jacksonville,30.3319,-81.6558,FL,"jacksonville, FL",,America/New_York
+par,81,FR,"paris, FR",paris,48.874199,2.34695,,paris,,Europe/Paris
+ams,82,NL,amsterdam / randstad,amsterdam,52.369999,4.89,,amsterdam,,Europe/Amsterdam
+bar,83,ES,barcelona,barcelona,41.3857,2.16994,,barcelona,,Europe/Madrid
+bng,84,IN,bangalore,bangalore,12.9833,77.583298,,bangalore,,Asia/Calcutta
+mum,85,IN,mumbai,mumbai,18.964701,72.825798,,mumbai,,Asia/Calcutta
+del,86,IN,delhi,delhi,28.6544,77.225601,,delhi,,Asia/Calcutta
+hkg,87,HK,hong kong,hongkong,22.299999,114.167,,hong kong,,Asia/Hong_Kong
+tok,88,JP,tokyo,tokyo,35.6833,139.766998,,tokyo,,Asia/Tokyo
+sng,89,SG,singapore,singapore,1.29628,103.843002,,singapore,,Asia/Singapore
+mnl,90,PH,manila,manila,14.5922,121.001999,,manila,,Asia/Manila
+mex,91,MX,mexico city,mexicocity,19.433333,-99.133333,,mexico city,,America/Mexico_City
+rno,92,US,reno / tahoe,reno,39.529701,-119.813004,NV,reno,,America/Los_Angeles
+brl,93,US,vermont,vermont,44.461201,-73.193703,VT,vermont,,America/New_York
+eug,94,US,"eugene, OR",eugene,44.0522,-123.085999,OR,eugene,,America/Los_Angeles
+spk,95,US,spokane / coeur d'alene,spokane,47.658901,-117.425003,WA,spokane,,America/Los_Angeles
+mod,96,US,"modesto, CA",modesto,37.639198,-120.996002,CA,modesto,,America/Los_Angeles
+stk,97,US,"stockton, CA",stockton,37.957802,-121.290001,CA,stockton,,America/Los_Angeles
+dsm,98,US,"des moines, IA",desmoines,41.600601,-93.608902,IA,des moines,,America/Chicago
+wic,99,US,"wichita, KS",wichita,37.6922,-97.337196,KS,wichita,,America/Chicago
+lit,100,US,little rock,littlerock,34.746399,-92.289398,AR,little rock,,America/Chicago
+cae,101,US,"columbia, SC",columbia,34.000599,-81.035004,SC,columbia,,America/New_York
+mtb,102,US,monterey bay,monterey,36.6003,-121.893997,CA,monterey,,America/Los_Angeles
+orc,103,US,"orange county, CA",orangecounty,33.731499,-117.862,CA,orange co,,America/Los_Angeles
+inl,104,US,"inland empire, CA",inlandempire,34.052799,-117.627998,CA,inland empire,,America/Los_Angeles
+osl,105,NO,norway,oslo,59.919399,10.7457,,norway,,Europe/Oslo
+sth,106,SE,sweden,stockholm,59.337399,18.0602,,sweden,,Europe/Stockholm
+cop,107,DK,copenhagen,copenhagen,55.674999,12.5687,,copenhagen,,Europe/Copenhagen
+ber,108,DE,berlin,berlin,52.5233,13.4127,,berlin,,Europe/Berlin
+bru,109,BE,belgium,brussels,50.85,4.35,,belgium,,Europe/Brussels
+mdd,110,ES,madrid,madrid,40.400002,-3.6833,,madrid,,Europe/Madrid
+mxp,111,IT,milan,milan,45.464001,9.19157,,milan,,Europe/Rome
+zur,112,CH,zurich,zurich,47.366699,8.55,,zurich,,Europe/Zurich
+spo,113,BR,sao paulo,saopaulo,-23.566999,-46.632999,,sao paulo,,America/Sao_Paulo
+bue,114,AR,buenos aires,buenosaires,-34.6036,-58.381699,,buenos aires,,America/Cordoba
+blf,115,GB,belfast,belfast,54.599998,-5.91667,,belfast,,Europe/London
+cym,116,GB,cardiff / wales,cardiff,51.478001,-3.1771,,cardiff,,Europe/London
+brs,117,GB,bristol,bristol,51.459999,-2.6,,bristol,,Europe/London
+liv,118,GB,liverpool,liverpool,53.416698,-3.0,,liverpool,,Europe/London
+sel,119,KR,seoul,seoul,37.583302,127.0,,seoul,,Asia/Seoul
+osa,120,JP,osaka-kobe-kyoto,osaka,34.660301,135.522995,,osaka,,Asia/Tokyo
+rom,121,IT,rome,rome,41.900002,12.5,,rome,,Europe/Rome
+vie,122,AT,vienna,vienna,48.211899,16.359301,,vienna,,Europe/Vienna
+lds,123,GB,leeds,leeds,53.810001,-1.55,,leeds,,Europe/London
+fmy,125,US,ft myers / SW florida,fortmyers,26.629999,-81.849998,FL,fort myers,"[{'Abbreviation': 'lee', 'Description': 'lee county', 'ShortDescription': 'lee county', 'SubAreaID': 1}, {'Abbreviation': 'chl', 'Description': 'charlotte county', 'ShortDescription': 'charlotte co', 'SubAreaID': 2}, {'Abbreviation': 'col', 'Description': 'collier county', 'ShortDescription': 'collier co', 'SubAreaID': 3}]",America/New_York
+rcs,126,US,"rochester, NY",rochester,43.154701,-77.615799,NY,"rochester, NY",,America/New_York
+bhm,127,US,"birmingham, AL",bham,33.520599,-86.802498,AL,"birmingham, AL",,America/Chicago
+chs,128,US,"charleston, SC",charleston,32.776402,-79.931099,SC,charleston,,America/New_York
+grr,129,US,"grand rapids, MI",grandrapids,42.963299,-85.668098,MI,grand rapids,,America/New_York
+syr,130,US,"syracuse, NY",syracuse,43.0481,-76.147797,NY,syracuse,,America/New_York
+day,131,US,dayton / springfield,dayton,39.7589,-84.191704,OH,dayton,,America/New_York
+elp,132,US,"el paso, TX",elpaso,31.7586,-106.486,TX,el paso,,America/Denver
+lex,133,US,"lexington, KY",lexington,37.988701,-84.477699,KY,lexington,,America/New_York
+jan,134,US,"jackson, MS",jackson,32.298599,-90.1847,MS,"jackson, MS",,America/Chicago
+sha,135,CN,shanghai,shanghai,31.233299,121.467003,,shanghai,,Asia/Chongqing
+cpt,136,ZA,cape town,capetown,-33.9767,18.4244,,cape town,,Africa/Johannesburg
+mos,137,RU,moscow,moscow,55.75,37.583302,,moscow,,Europe/Moscow
+prg,138,CZ,prague,prague,50.0783,14.4141,,prague,,Europe/Prague
+rio,139,BR,rio de janeiro,rio,-22.9083,-43.243599,,rio de janeiro,,America/Sao_Paulo
+ham,140,DE,hamburg,hamburg,53.5686,10.0386,,hamburg,,Europe/Berlin
+fra,141,DE,frankfurt,frankfurt,50.116699,8.68333,,frankfurt,,Europe/Berlin
+muc,142,DE,munich,munich,48.133301,11.5667,,munich,,Europe/Berlin
+stp,143,RU,"st petersburg, RU",stpetersburg,59.922001,30.3223,,st petersburg,,Europe/Moscow
+ath,144,GR,greece,athens,37.980999,23.7169,,greece,,Europe/Athens
+hel,145,FI,finland,helsinki,60.182499,24.947201,,finland,,Europe/Helsinki
+gva,146,CH,geneva,geneva,46.200001,6.15,,geneva,,Europe/Zurich
+waw,147,PL,poland,warsaw,52.232399,21.001699,,poland,,Europe/Warsaw
+ist,148,TR,turkey,istanbul,41.042099,29.009399,,turkey,,Europe/Istanbul
+mrs,149,FR,marseille,marseilles,43.297501,5.3772,,marseille,,Europe/Paris
+lys,150,FR,lyon,lyon,45.766899,4.8342,,lyon,,Europe/Paris
+nap,151,IT,napoli / campania,naples,40.846001,14.251,,napoli,,Europe/Rome
+flr,152,IT,florence / tuscany,florence,43.771702,11.2536,,florence,,Europe/Rome
+bud,153,HU,budapest,budapest,47.5,19.049999,,budapest,,Europe/Budapest
+pek,154,CN,beijing,beijing,39.901299,116.389,,beijing,,Asia/Chongqing
+twd,155,TW,taiwan,taipei,23.766701,121.0,,taiwan,,Asia/Taipei
+bkk,156,TH,thailand,bangkok,13.9202,101.016998,,thailand,,Asia/Bangkok
+jkt,157,ID,indonesia,jakarta,-6.267,106.800003,,indonesia,,Asia/Jakarta
+scl,158,CL,chile,santiago,-33.462399,-70.640701,,chile,,America/Santiago
+lim,159,PE,peru,lima,-12.1038,-77.058098,,peru,,America/Lima
+tlv,160,IL,tel aviv,telaviv,32.083302,34.799999,,tel aviv,,Asia/Jerusalem
+jrs,161,IL,jerusalem,jerusalem,31.7871,35.2048,,jerusalem,,Asia/Jerusalem
+cai,162,EG,egypt,cairo,30.0667,31.2479,,egypt,,Africa/Cairo
+ncl,163,GB,newcastle / NE england,newcastle,54.9776,-1.61362,,"newcastle, UK",,Europe/London
+mad,165,US,"madison, WI",madison,43.073101,-89.4011,WI,madison,,America/Chicago
+hrs,166,US,"harrisburg, PA",harrisburg,40.273602,-76.884697,PA,harrisburg,,America/New_York
+alt,167,US,lehigh valley,allentown,40.599998,-75.5,PA,allentown,,America/New_York
+hvn,168,US,"new haven, CT",newhaven,41.308102,-72.928596,CT,new haven,,America/New_York
+mne,169,US,maine,maine,44.693199,-69.334602,ME,maine,,America/New_York
+njy,170,US,north jersey,newjersey,40.91,-74.172997,NJ,north jersey,,America/New_York
+ash,171,US,"asheville, NC",asheville,35.6008,-82.554199,NC,asheville,,America/New_York
+aaa,172,US,"ann arbor, MI",annarbor,42.270802,-83.726402,MI,ann arbor,,America/New_York
+wma,173,US,western massachusetts,westernmass,42.349998,-73.0,MA,western mass,,America/New_York
+hfx,174,CA,"halifax, NS",halifax,44.63739,-63.588867,NS,halifax,,America/Halifax
+qbc,175,CA,quebec city,quebec,46.890202,-71.218903,QC,quebec,,America/Toronto
+skt,176,CA,"saskatoon, SK",saskatoon,52.136902,-106.641998,SK,saskatoon,,America/Regina
+vic,177,CA,"victoria, BC",victoria,48.4328,-123.334999,BC,"victoria, BC",,America/Vancouver
+ccs,178,VE,venezuela,caracas,10.4122,-66.882004,,venezuela,,America/Caracas
+cri,179,CR,costa rica,costarica,9.9247,-84.078003,,costa rica,,America/Costa_Rica
+pri,180,PR,puerto rico,puertorico,18.261299,-66.435997,PR,puerto rico,,America/Puerto_Rico
+tij,181,MX,"tijuana, MX",tijuana,32.5308,-117.019997,,tijuana,,America/Tijuana
+che,182,IN,chennai (madras),chennai,13.081,80.274002,,chennai,,Asia/Calcutta
+hyd,183,IN,hyderabad,hyderabad,17.366699,78.466698,,hyderabad,,Asia/Calcutta
+kol,184,IN,kolkata (calcutta),kolkata,22.5697,88.369698,,kolkata,,Asia/Calcutta
+jnb,185,ZA,johannesburg,johannesburg,-26.194901,28.0371,,johannesburg,,Africa/Johannesburg
+tal,186,US,tallahassee,tallahassee,30.438101,-84.2808,FL,tallahassee,,America/New_York
+chc,187,US,"chico, CA",chico,39.7286,-121.835999,CA,chico,,America/Los_Angeles
+rdd,188,US,"redding, CA",redding,40.5867,-122.390999,CA,redding,,America/Los_Angeles
+hmb,189,US,humboldt county,humboldt,40.747398,-123.987999,CA,humboldt,,America/Los_Angeles
+chm,190,US,champaign urbana,chambana,40.110001,-88.25,IL,chambana,,America/Chicago
+slo,191,US,san luis obispo,slo,35.282799,-120.658997,CA,san luis obispo,,America/Los_Angeles
+mnt,192,US,eastern montana,montana,47.1,-104.7,MT,eastern montana,,America/Denver
+dlw,193,US,delaware,delaware,39.145699,-75.483498,DE,delaware,,America/New_York
+wva,194,US,west virginia (old),wv,38.709999,-80.660004,WV,west virginia,,America/New_York
+sdk,195,US,south dakota,sd,44.296101,-99.236702,SD,south dakota,,America/Chicago
+ndk,196,US,north dakota,nd,47.5,-100.5,ND,north dakota,,America/Chicago
+wyo,197,US,wyoming,wyoming,43.004002,-108.153999,WY,wyoming,,America/Denver
+nhm,198,US,new hampshire,nh,43.654099,-71.564201,NH,new hampshire,,America/New_York
+btr,199,US,baton rouge,batonrouge,30.458099,-91.140198,LA,baton rouge,,America/Chicago
+mob,200,US,"mobile, AL",mobile,30.694201,-88.043098,AL,"mobile, AL",,America/Chicago
+ith,201,US,"ithaca, NY",ithaca,42.440601,-76.496902,NY,ithaca,,America/New_York
+knx,202,US,"knoxville, TN",knoxville,35.960602,-83.920799,TN,knoxville,,America/New_York
+pns,203,US,"pensacola, FL",pensacola,30.421101,-87.216904,FL,pensacola,,America/Chicago
+tol,204,US,"toledo, OH",toledo,41.663898,-83.555298,OH,toledo,,America/New_York
+sav,205,US,savannah / hinesville,savannah,32.050701,-81.103798,GA,savannah,,America/New_York
+shv,206,US,"shreveport, LA",shreveport,32.468102,-93.771103,LA,shreveport,,America/Chicago
+mgm,207,US,"montgomery, AL",montgomery,32.366699,-86.300003,AL,montgomery,,America/Chicago
+oxr,208,US,ventura county,ventura,34.277,-119.044998,CA,ventura,,America/Los_Angeles
+psp,209,US,"palm springs, CA",palmsprings,33.830299,-116.543999,CA,palm springs,,America/Los_Angeles
+cos,210,US,colorado springs,cosprings,38.8339,-104.820999,CO,colo springs,,America/Denver
+oxf,211,GB,"oxford, UK",oxford,51.751099,-1.25583,,oxford,,Europe/London
+lan,212,US,"lansing, MI",lansing,42.732498,-84.555603,MI,lansing,,America/New_York
+hml,213,CA,hamilton-burlington,hamilton,43.243999,-79.869003,ON,hamilton,,America/Toronto
+kch,214,CA,kitchener-waterloo-cambridge,kitchener,43.452801,-80.490799,ON,kitchener,,America/Toronto
+uae,215,AE,united arab emirates,dubai,25.269699,55.309502,,emirates,,Asia/Dubai
+mfr,216,US,medford-ashland,medford,42.326698,-122.874001,OR,medford,,America/Los_Angeles
+bli,217,US,"bellingham, WA",bellingham,48.759701,-122.487,WA,bellingham,,America/Los_Angeles
+saf,218,US,santa fe / taos,santafe,35.686901,-105.936996,NM,santa fe,,America/Denver
+gnv,219,US,"gainesville, FL",gainesville,29.6514,-82.324997,FL,gainesville,,America/New_York
+cht,220,US,"chattanooga, TN",chattanooga,35.045601,-85.3097,TN,chattanooga,,America/New_York
+sgf,221,US,"springfield, MO",springfield,37.215302,-93.298103,MO,springfield,,America/Chicago
+cou,222,US,columbia / jeff city,columbiamo,38.951698,-92.3339,MO,"columbia, MO",,America/Chicago
+rfd,223,US,"rockford, IL",rockford,42.271099,-89.093903,IL,rockford,,America/Chicago
+pia,224,US,"peoria, IL",peoria,40.6936,-89.588898,IL,peoria,,America/Chicago
+spi,225,US,"springfield, IL",springfieldil,39.801701,-89.6436,IL,"springfield, IL",,America/Chicago
+fwa,226,US,"fort wayne, IN",fortwayne,41.1306,-85.128899,IN,fort wayne,,America/New_York
+evv,227,US,"evansville, IN",evansville,37.974701,-87.555801,IN,evansville,,America/Chicago
+sbn,228,US,south bend / michiana,southbend,41.6833,-86.25,IN,south bend,,America/New_York
+bmg,229,US,"bloomington, IN",bloomington,39.165298,-86.526398,IN,"bloomington, IN",,America/New_York
+gpt,230,US,gulfport / biloxi,gulfport,30.367201,-89.092796,MS,gulfport,,America/Chicago
+hsv,231,US,huntsville / decatur,huntsville,34.730301,-86.586098,AL,huntsville,,America/Chicago
+sle,232,US,"salem, OR",salem,44.9431,-123.033997,OR,salem,,America/Los_Angeles
+bnd,233,US,"bend, OR",bend,44.0583,-121.314003,OR,bend,,America/Los_Angeles
+lon,234,CA,"london, ON",londonon,43.033298,-81.150002,ON,"london, ON",,America/Toronto
+wsr,235,CA,"windsor, ON",windsor,42.287498,-83.005798,ON,windsor,,America/Toronto
+srq,237,US,sarasota-bradenton,sarasota,27.3361,-82.5308,FL,sarasota,,America/New_York
+dab,238,US,daytona beach,daytona,29.2106,-81.023102,FL,daytona beach,,America/New_York
+cap,239,US,cape cod / islands,capecod,41.6889,-70.296898,MA,cape cod,,America/New_York
+wor,240,US,worcester / central MA,worcester,42.262501,-71.802803,MA,worcester,,America/New_York
+grb,241,US,"green bay, WI",greenbay,44.519199,-88.019699,WI,green bay,,America/Chicago
+eau,242,US,"eau claire, WI",eauclaire,44.811401,-91.498299,WI,eau claire,,America/Chicago
+app,243,US,appleton-oshkosh-FDL,appleton,44.261902,-88.415298,WI,appleton,,America/Chicago
+flg,244,US,flagstaff / sedona,flagstaff,35.198101,-111.651001,AZ,flagstaff,,America/Phoenix
+gum,245,GU,guam-micronesia,micronesia,13.45,144.783005,,micronesia,,Pacific/Guam
+yak,246,US,"yakima, WA",yakima,46.6022,-120.504997,WA,yakima,,America/Los_Angeles
+uti,247,US,utica-rome-oneida,utica,43.1008,-75.233101,NY,utica,,America/New_York
+bgm,248,US,"binghamton, NY",binghamton,42.098598,-75.918297,NY,binghamton,,America/New_York
+hud,249,US,"hudson valley, NY",hudsonvalley,41.576698,-73.803398,NY,hudson valley,,America/New_York
+isp,250,US,"long island, NY",longisland,40.822102,-73.149696,NY,long island,,America/New_York
+cak,251,US,akron / canton,akroncanton,41.081402,-81.519203,OH,akron-canton,,America/New_York
+yng,252,US,"youngstown, OH",youngstown,41.099701,-80.649696,OH,youngstown,,America/New_York
+gsp,253,US,greenville / upstate,greenville,34.852501,-82.394203,SC,greenville,,America/New_York
+myr,254,US,"myrtle beach, SC",myrtlebeach,33.6889,-78.886902,SC,myrtle beach,,America/New_York
+dlh,255,US,duluth / superior,duluth,46.783298,-92.1064,MN,duluth,,America/Chicago
+aug,256,US,"augusta, GA",augusta,33.470798,-81.974998,GA,augusta,,America/New_York
+mcn,257,US,macon / warner robins,macon,32.840599,-83.6325,GA,macon,,America/New_York
+ahn,258,US,"athens, GA",athensga,33.9608,-83.378098,GA,"athens, GA",,America/New_York
+fnt,259,US,"flint, MI",flint,43.012501,-83.6875,MI,flint,,America/New_York
+mbs,260,US,saginaw-midland-baycity,saginaw,43.419399,-83.950798,MI,saginaw,,America/New_York
+kzo,261,US,"kalamazoo, MI",kalamazoo,42.291698,-85.587196,MI,kalamazoo,,America/New_York
+yup,262,US,"upper peninsula, MI",up,46.550098,-87.408302,MI,yoopers,,America/New_York
+mca,263,US,mcallen / edinburg,mcallen,26.2031,-98.229698,TX,mcallen,,America/Chicago
+bpt,264,US,beaumont / port arthur,beaumont,30.0762,-94.112999,TX,beaumont,,America/Chicago
+crp,265,US,"corpus christi, TX",corpuschristi,27.800301,-97.396103,TX,corpus christi,,America/Chicago
+bro,266,US,"brownsville, TX",brownsville,25.9014,-97.4972,TX,brownsville,,America/Chicago
+lbb,267,US,"lubbock, TX",lubbock,33.577801,-101.855003,TX,lubbock,,America/Chicago
+odm,268,US,odessa / midland,odessa,31.8456,-102.366997,TX,odessa,,America/Chicago
+ama,269,US,"amarillo, TX",amarillo,35.221901,-101.831001,TX,amarillo,,America/Chicago
+wco,270,US,"waco, TX",waco,31.5492,-97.1464,TX,waco,,America/Chicago
+lrd,271,US,"laredo, TX",laredo,27.5061,-99.507202,TX,laredo,,America/Chicago
+wsl,272,US,"winston-salem, NC",winstonsalem,36.099701,-80.2444,NC,winston-salem,,America/New_York
+fay,273,US,"fayetteville, NC",fayetteville,35.052502,-78.878601,NC,"fayetteville, NC",,America/New_York
+wnc,274,US,"wilmington, NC",wilmington,34.225601,-77.945,NC,"wilmington, NC",,America/New_York
+eri,275,US,"erie, PA",erie,42.1292,-80.085297,PA,"erie, PA",,America/New_York
+avp,276,US,scranton / wilkes-barre,scranton,41.408901,-75.662804,PA,scranton,,America/New_York
+psu,277,US,"state college, PA",pennstate,40.793301,-77.860298,PA,state college,,America/New_York
+rea,278,US,"reading, PA",reading,40.335602,-75.9272,PA,reading,,America/New_York
+lns,279,US,"lancaster, PA",lancaster,40.0378,-76.305801,PA,"lancaster, PA",,America/New_York
+tpk,280,US,"topeka, KS",topeka,39.048302,-95.677803,KS,topeka,,America/Chicago
+nlo,281,US,eastern CT,newlondon,41.344101,-72.1036,CT,eastern CT,,America/New_York
+lnk,282,US,"lincoln, NE",lincoln,40.799999,-96.666702,NE,lincoln,,America/Chicago
+lft,283,US,"lafayette, LA",lafayette,30.2139,-92.029404,LA,lafayette,,America/Chicago
+lkc,284,US,"lake charles, LA",lakecharles,30.214701,-93.208603,LA,lake charles,,America/Chicago
+mer,285,US,"merced, CA",merced,37.3022,-120.482002,CA,merced,,America/Los_Angeles
+snj,286,US,south jersey,southjersey,39.480301,-75.013901,NJ,south jersey,,America/New_York
+ftc,287,US,fort collins / north CO,fortcollins,40.5853,-105.084,CO,fort collins,,America/Denver
+rck,288,US,high rockies,rockies,39.1917,-106.824699,CO,high rockies,,America/Denver
+roa,289,US,"roanoke, VA",roanoke,37.274101,-79.942001,VA,roanoke,,America/New_York
+uva,290,US,"charlottesville, VA",charlottesville,38.0345,-78.486504,VA,charlottesville,,America/New_York
+vpi,291,US,new river valley,blacksburg,37.229401,-80.4142,VA,blacksburg,,America/New_York
+pvu,292,US,provo / orem,provo,40.233898,-111.657997,UT,provo,,America/Denver
+fyv,293,US,"fayetteville, AR",fayar,36.0625,-94.157204,AR,"fayetteville, AR",,America/Chicago
+pak,294,PK,pakistan,pakistan,32.016201,71.692596,,pakistan,,Asia/Karachi
+bgl,295,BD,bangladesh,bangladesh,23.851101,89.925003,,bangladesh,,Asia/Dhaka
+bey,296,LB,"beirut, lebanon",beirut,33.883301,35.5,,beirut,,Asia/Beirut
+mly,297,MY,malaysia,malaysia,3.57099,101.991997,,malaysia,,Asia/Kuala_Lumpur
+pan,298,PA,panama,panama,8.75154,-79.877197,,panama,,America/Panama
+crb,299,,caribbean islands,caribbean,19.0933,-74.619102,,caribbean,,America/Jamaica
+chr,301,NZ,christchurch,christchurch,-43.5,172.600006,,christchurch,,Pacific/Auckland
+wll,302,NZ,wellington,wellington,-41.288898,174.776993,,wellington,,Pacific/Auckland
+dur,303,ZA,durban,durban,-29.843,30.9554,,durban,,Africa/Johannesburg
+pei,304,CA,prince edward island,pei,46.333302,-63.5,PE,PEI,,America/Halifax
+nfl,305,CA,"st john's, NL",newfoundland,47.5675,-52.707222,NL,"st john's, NL",,America/St_Johns
+nce,306,FR,nice / cote d'azur,cotedazur,43.702801,7.26917,,cote d'azur,,Europe/Paris
+mli,307,US,"quad cities, IA/IL",quadcities,41.511299,-90.594398,IA,quad cities,,America/Chicago
+etx,308,US,tyler / east TX,easttexas,32.351101,-95.300797,TX,east TX,,America/Chicago
+nmi,309,US,northern michigan,nmi,44.459301,-84.814499,MI,northern MI,,America/New_York
+vce,310,IT,venice / veneto,venice,45.4333,12.3167,,venice,,Europe/Rome
+sic,311,IT,sicilia,sicily,37.553299,14.1531,,sicilia,,Europe/Rome
+cam,312,GB,"cambridge, UK",cambridge,52.209999,0.13,,cambridge,,Europe/London
+cgn,313,DE,cologne,cologne,50.936401,6.9595,,cologne,,Europe/Berlin
+vtn,314,VN,vietnam,vietnam,13.9944,108.017998,,vietnam,,Asia/Saigon
+pub,315,US,"pueblo, CO",pueblo,38.254398,-104.609001,CO,pueblo,,America/Denver
+rmn,316,US,"rochester, MN",rmn,44.021702,-92.469704,MN,"rochester, MN",,America/Chicago
+pnq,317,IN,pune,pune,18.5236,73.847801,,pune,,Asia/Calcutta
+abz,318,GB,aberdeen,aberdeen,57.150002,-2.1,,aberdeen,,Europe/London
+bou,319,US,"boulder, CO",boulder,40.014999,-105.269997,CO,boulder,,America/Denver
+gjt,320,US,western slope,westslope,39.0704,-108.552002,CO,western slope,,America/Denver
+cor,321,US,oregon coast,oregoncoast,43.396099,-124.167,OR,oregon coast,,America/Los_Angeles
+eor,322,US,east oregon,eastoregon,44.7565,-117.853996,OR,east oregon,,America/Los_Angeles
+tri,323,US,"tri-cities, TN",tricities,36.4174,-82.440697,TN,"tri-cities, TN",,America/New_York
+kpr,324,US,kennewick-pasco-richland,kpr,46.211399,-119.136002,WA,"tri-cities, WA",,America/Los_Angeles
+wen,325,US,"wenatchee, WA",wenatchee,47.423599,-120.308998,WA,wenatchee,,America/Los_Angeles
+cst,326,US,"college station, TX",collegestation,30.6278,-96.334198,TX,college station,,America/Chicago
+grk,327,US,killeen / temple / ft hood,killeen,31.116899,-97.727501,TX,killeen-temple,,America/Chicago
+esh,328,US,eastern shore,easternshore,38.7701,-76.072098,MD,eastern shore,,America/New_York
+wmd,329,US,western maryland,westmd,39.651699,-78.7658,MD,western MD,,America/New_York
+key,330,US,florida keys,keys,24.666901,-81.544197,FL,florida keys,,America/New_York
+mlb,331,US,"space coast, FL",spacecoast,28.613501,-80.693199,FL,space coast,,America/New_York
+psl,332,US,"treasure coast, FL",treasure,27.230801,-80.226303,FL,treasure coast,,America/New_York
+oca,333,US,"ocala, FL",ocala,29.186899,-82.140297,FL,ocala,,America/New_York
+lcr,334,US,"las cruces, NM",lascruces,32.319698,-106.764999,NM,las cruces,,America/Denver
+enc,335,US,eastern NC,eastnc,35.584999,-77.372498,NC,eastern NC,,America/New_York
+obx,336,US,outer banks,outerbanks,36.031898,-75.676598,NC,outer banks,,America/New_York
+wtn,337,US,"watertown, NY",watertown,43.974701,-75.911102,NY,watertown,,America/New_York
+plb,338,US,plattsburgh-adirondacks,plattsburgh,44.699402,-73.4533,NY,plattsburgh,,America/New_York
+iac,339,US,"iowa city, IA",iowacity,41.661098,-91.529999,IA,iowa city,,America/Chicago
+ced,340,US,"cedar rapids, IA",cedarrapids,42.008301,-91.643898,IA,cedar rapids,,America/Chicago
+sux,341,US,"sioux city, IA",siouxcity,42.5,-96.400002,IA,sioux city,,America/Chicago
+blg,342,US,"bowling green, KY",bgky,36.990299,-86.443604,KY,bowling green,,America/Chicago
+csg,343,US,"columbus, GA",columbusga,32.4608,-84.987801,GA,"columbus, GA",,America/New_York
+bln,344,US,bloomington-normal,bn,40.4842,-88.993599,IL,"bloomington, IL",,America/Chicago
+cbd,345,US,southern illinois,carbondale,37.7272,-89.216698,IL,southern IL,,America/Chicago
+vis,346,US,visalia-tulare,visalia,36.330299,-119.291,CA,visalia-tulare,,America/Los_Angeles
+lwr,347,US,"lawrence, KS",lawrence,38.971699,-95.235001,KS,lawrence,,America/Chicago
+tha,348,US,"terre haute, IN",terrehaute,39.466702,-87.413902,IN,terre haute,,America/New_York
+cnj,349,US,central NJ,cnj,40.363098,-74.6614,NJ,central NJ,,America/New_York
+crv,350,US,corvallis/albany,corvallis,44.564701,-123.261002,OR,corvallis,,America/Los_Angeles
+ogd,351,US,ogden-clearfield,ogden,41.223099,-111.973,UT,ogden,,America/Denver
+stg,352,US,"st george, UT",stgeorge,37.095299,-113.578003,UT,st george,,America/Denver
+hhi,353,US,hilton head,hiltonhead,32.1917,-80.743301,SC,hilton head,,America/New_York
+nct,354,US,northwest CT,nwct,41.914501,-73.2761,CT,northwest CT,,America/New_York
+aoo,355,US,altoona-johnstown,altoona,40.5186,-78.394997,PA,altoona,,America/New_York
+poc,356,US,poconos,poconos,41.248611,-75.248611,PA,poconos,,America/New_York
+yrk,357,US,"york, PA",york,39.962502,-76.728104,PA,"york, PA",,America/New_York
+fsm,358,US,"fort smith, AR",fortsmith,35.385799,-94.3983,AR,fort smith,,America/Chicago
+txk,359,US,texarkana,texarkana,33.424999,-94.047501,AR,texarkana,,America/Chicago
+laf,360,US,lafayette / west lafayette,tippecanoe,40.416698,-86.875298,IN,tippecanoe,,America/New_York
+mun,361,US,muncie / anderson,muncie,40.193298,-85.386398,IN,muncie,,America/New_York
+dbq,362,US,dubuque,dubuque,42.500599,-90.664398,IA,dubuque,,America/Chicago
+lse,363,US,"la crosse, WI",lacrosse,43.801399,-91.239403,WI,la crosse,,America/Chicago
+abi,364,US,"abilene, TX",abilene,32.448601,-99.732803,TX,abilene,,America/Chicago
+wtf,365,US,"wichita falls, TX",wichitafalls,33.913601,-98.493103,TX,wichita falls,,America/Chicago
+lyn,366,US,"lynchburg, VA",lynchburg,37.403702,-79.170197,VA,lynchburg,,America/New_York
+dnv,367,US,danville,danville,36.5872,-79.404404,VA,danville,,America/New_York
+plm,368,US,pullman / moscow,pullman,46.732498,-117.171997,WA,pullman-moscow,,America/Los_Angeles
+stc,369,US,"st cloud, MN",stcloud,45.560799,-94.162201,MN,st cloud,,America/Chicago
+yum,370,US,"yuma, AZ",yuma,32.7253,-114.624001,AZ,yuma,,America/Los_Angeles
+tsc,371,US,tuscaloosa,tuscaloosa,33.209702,-87.569199,AL,tuscaloosa,,America/Chicago
+aub,372,US,"auburn, AL",auburn,32.609699,-85.480797,AL,auburn,,America/Chicago
+gld,373,US,gold country,goldcountry,38.732498,-120.801003,CA,gold country,,America/Los_Angeles
+usm,374,US,"hattiesburg, MS",hattiesburg,31.3269,-89.290298,MS,hattiesburg,,America/Chicago
+nms,375,US,north mississippi,northmiss,34.358799,-89.5261,MS,north MS,,America/Chicago
+lal,376,US,"lakeland, FL",lakeland,28.0392,-81.949997,FL,lakeland,,America/New_York
+wky,377,US,western KY,westky,37.081474,-88.077393,KY,western KY,,America/Chicago
+sma,378,US,"south coast, MA",southcoast,41.6385,-71.048599,MA,south coast,,America/New_York
+nbw,379,CA,new brunswick,newbrunswick,46.5,-66.75,NB,new brunswick,,America/Halifax
+kel,380,CA,kelowna / okanagan,kelowna,49.890202,-119.490997,BC,kelowna,,America/Vancouver
+kml,381,CA,"kamloops, BC",kamloops,50.676701,-120.332001,BC,kamloops,,America/Vancouver
+nmo,382,CA,"nanaimo, BC",nanaimo,49.1647,-123.938004,BC,nanaimo,,America/Vancouver
+yxs,383,CA,"prince george, BC",princegeorge,53.913601,-122.75,BC,prince george,,America/Vancouver
+sud,384,CA,"sudbury, ON",sudbury,46.490799,-80.991203,ON,sudbury,,America/Toronto
+kng,385,CA,"kingston, ON",kingston,44.2314,-76.484703,ON,"kingston, ON",,America/Toronto
+nsc,386,CA,niagara region,niagara,43.088902,-79.332298,ON,niagara region,,America/Toronto
+tby,387,CA,"thunder bay, ON",thunderbay,48.402802,-89.267998,ON,thunder bay,,America/Toronto
+ypq,388,CA,"peterborough, ON",peterborough,44.308998,-78.313004,ON,peterborough,,America/Toronto
+brr,389,CA,"barrie, ON",barrie,44.394501,-79.690399,ON,barrie,,America/Toronto
+shb,390,CA,"sherbrooke, QC",sherbrooke,45.399899,-71.919899,QC,sherbrooke,,America/Toronto
+hfa,391,IL,haifa,haifa,32.799999,34.983299,,haifa,,Asia/Jerusalem
+ssa,392,BR,"salvador, bahia",salvador,-12.9833,-38.516701,,"salvador, bahia",,America/Fortaleza
+bog,393,CO,colombia,colombia,5.06889,-74.526299,,colombia,,America/Bogota
+val,394,ES,valencia,valencia,39.4767,-0.374444,,valencia,,Europe/Madrid
+sev,395,ES,sevilla,sevilla,37.3843,-5.97931,,sevilla,,Europe/Madrid
+blq,396,IT,bologna,bologna,44.5,11.35,,bologna,,Europe/Rome
+trn,397,IT,torino,torino,45.069599,7.68494,,torino,,Europe/Rome
+bri,398,GB,brighton,brighton,50.830002,-0.155556,,brighton,,Europe/London
+dvc,399,GB,devon & cornwall,devon,50.5728,-4.4989,,devon & cornwall,,Europe/London
+eml,400,GB,east midlands,eastmids,53.240601,-0.539703,,east midlands,,Europe/London
+shf,401,GB,sheffield,sheffield,53.383301,-1.46667,,sheffield,,Europe/London
+nwh,402,GB,east anglia,norwich,52.633701,1.29261,,east anglia,,Europe/London
+sou,403,GB,hampshire,hampshire,51.091202,-1.2188,,hampshire,,Europe/London
+gdl,404,MX,guadalajara,guadalajara,20.6661,-103.351997,,guadalajara,,America/Mexico_City
+yuc,405,MX,yucatan,yucatan,20.645599,-88.593803,,yucatan,,America/Mexico_City
+bcs,406,MX,baja california sur,bajasur,25.8461,-111.973,,baja sur,,America/Mazatlan
+pvr,407,MX,puerto vallarta,pv,20.6031,-105.234001,,puerto vallarta,,America/Mexico_City
+mty,408,MX,monterrey,monterrey,25.6667,-100.300003,,monterrey,,America/Mexico_City
+can,409,CN,guangzhou,guangzhou,23.145399,113.334999,,guangzhou,,Asia/Chongqing
+cok,410,IN,kerala,kerala,10.0,76.5,,kerala,,Asia/Calcutta
+tls,411,FR,toulouse,toulouse,43.605301,1.4428,,toulouse,,Europe/Paris
+bod,412,FR,bordeaux,bordeaux,44.8386,-0.578333,,bordeaux,,Europe/Paris
+lil,413,FR,lille,lille,50.6325,3.05833,,lille,,Europe/Paris
+sxb,414,FR,strasbourg,strasbourg,48.582901,7.74375,,strasbourg,,Europe/Paris
+nte,415,FR,loire valley,loire,45.9865,4.02512,,loire valley,,Europe/Paris
+str,416,DE,stuttgart,stuttgart,48.776699,9.1775,,stuttgart,,Europe/Berlin
+haj,417,DE,hannover,hannover,52.3689,9.7126,,hannover,,Europe/Berlin
+dus,418,DE,dusseldorf,dusseldorf,51.2211,6.77925,,dusseldorf,,Europe/Berlin
+prc,419,US,"prescott, AZ",prescott,34.540001,-112.468002,AZ,prescott,,America/Phoenix
+row,420,US,roswell / carlsbad,roswell,33.394199,-104.522003,NM,roswell,,America/Denver
+mkt,421,US,"mankato, MN",mankato,44.163601,-93.999199,MN,mankato,,America/Chicago
+law,422,US,"lawton, OK",lawton,34.608601,-98.389999,OK,lawton,,America/Chicago
+jln,423,US,"joplin, MO",joplin,37.084202,-94.5131,MO,joplin,,America/Chicago
+eid,424,US,east idaho,eastidaho,43.4529,-112.782997,ID,east idaho,,America/Denver
+jbr,425,US,"jonesboro, AR",jonesboro,35.842201,-90.704201,AR,jonesboro,,America/Chicago
+jxn,426,US,"jackson, MI",jxn,42.2458,-84.401398,MI,"jackson, MI",,America/New_York
+vld,427,US,"valdosta, GA",valdosta,30.8325,-83.278603,GA,valdosta,,America/New_York
+mhk,428,US,"manhattan, KS",ksu,39.183601,-96.571404,KS,manhattan,,America/Chicago
+oka,429,JP,okinawa,okinawa,26.3333,127.800003,,okinawa,,Asia/Tokyo
+goa,430,IN,goa,goa,15.3733,73.939201,,goa,,Asia/Calcutta
+bjx,431,MX,guanajuato,guanajuato,21.0128,-101.273003,,guanajuato,,America/Mexico_City
+gil,432,US,"grand island, NE",grandisland,40.924999,-98.341698,NE,grand island,,America/Chicago
+osu,433,US,"stillwater, OK",stillwater,36.115601,-97.058098,OK,stillwater,,America/Chicago
+cmu,434,US,central michigan,centralmich,43.598,-84.780998,MI,central MI,,America/New_York
+far,435,US,fargo / moorhead,fargo,46.877201,-96.789398,ND,fargo,,America/Chicago
+mfd,436,US,"mansfield, OH",mansfield,40.758301,-82.515602,OH,mansfield,,America/New_York
+lma,437,US,lima / findlay,limaohio,40.7425,-84.105301,OH,lima-findlay,,America/New_York
+ohu,438,US,"athens, OH",athensohio,39.329201,-82.101402,OH,"athens, OH",,America/New_York
+crw,439,US,"charleston, WV",charlestonwv,38.349701,-81.632797,WV,"charleston, WV",,America/New_York
+wvu,440,US,"morgantown, WV",morgantown,39.629398,-79.9561,WV,morgantown,,America/New_York
+pkb,441,US,parkersburg-marietta,parkersburg,39.266701,-81.561699,WV,parkersburg,,America/New_York
+hts,442,US,huntington-ashland,huntington,38.419201,-82.445297,WV,huntington,,America/New_York
+whl,443,US,northern panhandle,wheeling,40.0639,-80.7211,WV,northern WV,,America/New_York
+ewv,444,US,eastern panhandle,martinsburg,39.4561,-77.964203,WV,eastern WV,,America/New_York
+ame,445,US,"ames, IA",ames,42.034698,-93.619698,IA,"ames, IA",,America/Chicago
+bnc,446,US,"boone, NC",boone,36.216702,-81.674698,NC,boone,,America/New_York
+shd,447,US,"harrisonburg, VA",harrisonburg,38.443298,-78.872803,VA,harrisonburg,,America/New_York
+lgu,448,US,"logan, UT",logan,41.7356,-111.834,UT,logan,,America/Denver
+tsu,449,US,"san marcos, TX",sanmarcos,29.883101,-97.941101,TX,san marcos,,America/Chicago
+amd,450,IN,ahmedabad,ahmedabad,23.0333,72.616699,,ahmedabad,,Asia/Calcutta
+cat,451,US,catskills,catskills,42.0,-74.383301,NY,catskills,,America/New_York
+chq,452,US,"chautauqua, NY",chautauqua,42.209702,-79.466698,NY,chautauqua,,America/New_York
+elm,453,US,elmira-corning,elmira,42.089699,-76.808098,NY,elmira,,America/New_York
+mdo,454,US,mendocino county,mendocino,39.363098,-123.43,CA,mendocino co,,America/Los_Angeles
+imp,455,US,imperial county,imperial,32.9631,-115.487999,CA,imperial co,,America/Los_Angeles
+ybs,456,US,"yuba-sutter, CA",yubasutter,39.144402,-121.647003,CA,yuba-sutter,,America/Los_Angeles
+ezf,457,US,"fredericksburg, VA",fredericksburg,38.3018,-77.470802,VA,fredericksburg,,America/New_York
+wau,458,US,"wausau, WI",wausau,44.959202,-89.629997,WI,wausau,,America/Chicago
+rbg,459,US,"roseburg, OR",roseburg,43.216702,-123.341003,OR,roseburg,,America/Los_Angeles
+anp,460,US,"annapolis, MD",annapolis,38.978298,-76.4925,MD,annapolis,,America/New_York
+mvw,461,US,skagit / island / SJI,skagit,48.384499,-122.357002,WA,skagit,,America/Los_Angeles
+hky,462,US,hickory / lenoir,hickory,35.733101,-81.3414,NC,hickory,,America/New_York
+wpt,463,US,"williamsport, PA",williamsport,41.2411,-77.001404,PA,williamsport,,America/New_York
+flo,464,US,"florence, SC",florencesc,34.195301,-79.762802,SC,"florence, SC",,America/New_York
+ckv,465,US,"clarksville, TN",clarksville,36.529701,-87.359398,TN,"clarksville, TN",,America/Chicago
+olp,466,US,olympic peninsula,olympic,47.798302,-123.617996,WA,olympic pen,,America/Los_Angeles
+dhn,467,US,"dothan, AL",dothan,31.223101,-85.390602,AL,"dothan, AL",,America/Chicago
+fhu,468,US,"sierra vista, AZ",sierravista,31.554399,-110.303001,AZ,sierra vista,,America/Phoenix
+twf,469,US,"twin falls, ID",twinfalls,42.563099,-114.459999,ID,twin falls,,America/Denver
+gls,470,US,"galveston, TX",galveston,29.281099,-94.825798,TX,galveston,,America/Chicago
+abb,471,CA,"fraser valley, BC",abbotsford,49.051399,-122.278999,BC,fraser valley,,America/Vancouver
+whi,472,CA,whistler / squamish,whistler,50.124401,-122.959999,BC,whistler / squamish,,America/Vancouver
+cmx,473,CA,"comox valley, BC",comoxvalley,49.700901,-125.001999,BC,comox valley,,America/Vancouver
+koo,474,CA,"kootenays, BC",kootenays,49.511101,-115.766998,BC,kootenays,,America/Edmonton
+red,475,CA,"red deer, AB",reddeer,52.2747,-113.815002,AB,red deer,,America/Edmonton
+lth,476,CA,"lethbridge, AB",lethbridge,49.696098,-112.830002,AB,lethbridge,,America/Edmonton
+fmc,477,CA,"ft mcmurray, AB",ftmcmurray,56.742199,-111.443001,AB,ft mcmurray,,America/Edmonton
+reg,478,CA,"regina, SK",regina,50.455299,-104.610001,SK,regina,,America/Regina
+trs,479,CA,"trois-rivieres, QC",troisrivieres,46.356899,-72.546204,QC,trois-rivieres,,America/Toronto
+sgy,480,CA,"saguenay, QC",saguenay,48.410099,-71.063698,QC,saguenay,,America/Toronto
+ycc,481,CA,"cornwall, ON",cornwall,45.029999,-74.739998,ON,"cornwall, ON",,America/Toronto
+gph,482,CA,"guelph, ON",guelph,43.544601,-80.255096,ON,guelph,,America/Toronto
+bel,483,CA,"belleville, ON",belleville,44.166698,-77.383301,ON,"belleville, ON",,America/Toronto
+chk,484,CA,"chatham-kent, ON",chatham,42.411289,-82.194214,ON,chatham-kent,,America/Toronto
+soo,485,CA,"sault ste marie, ON",soo,46.519199,-84.322098,ON,"sault ste marie, ON",,America/Toronto
+srn,486,CA,"sarnia, ON",sarnia,42.966702,-82.400002,ON,sarnia,,America/Toronto
+ows,487,CA,"owen sound, ON",owensound,44.574799,-80.952797,ON,owen sound,,America/Toronto
+toc,488,CA,territories,territories,62.466599,-114.445,NT,territories,,America/Edmonton
+cbr,489,AU,"canberra, ACT",canberra,-35.282799,149.130997,NSW,canberra,,Australia/Sydney
+hba,490,AU,tasmania,hobart,-42.8806,147.324997,TAS,tasmania,,Australia/Melbourne
+drw,491,AU,"darwin, NT",darwin,-12.4667,130.832993,NT,darwin,,Australia/Darwin
+not,492,GB,"nottingham, UK",nottingham,52.970001,-1.18,,nottingham,,Europe/London
+ken,493,GB,"kent, UK",kent,51.255001,0.8638,,kent,,Europe/London
+bth,494,GB,"bath, UK",bath,51.383301,-2.3667,,bath,,Europe/London
+cov,495,GB,"coventry, UK",coventry,52.4081,-1.5106,,coventry,,Europe/London
+dby,496,GB,"derby, UK",derby,52.921902,-1.4758,,derby,,Europe/London
+esx,497,GB,"essex, UK",essex,51.7831,0.666733,,essex,,Europe/London
+dnd,498,GB,dundee,dundee,56.450001,-2.98333,,dundee,,Europe/London
+szx,499,CN,shenzhen,shenzhen,22.542999,114.056999,,shenzhen,,Asia/Chongqing
+hgh,500,CN,hangzhou,hangzhou,30.2731,120.177002,,hangzhou,,Asia/Chongqing
+ngo,501,JP,nagoya,nagoya,35.166698,136.917007,,nagoya,,Asia/Tokyo
+spp,502,JP,sapporo,sapporo,43.0667,141.350006,,sapporo,,Asia/Tokyo
+fuk,503,JP,fukuoka,fukuoka,33.5858,130.403,,fukuoka,,Asia/Tokyo
+hij,504,JP,hiroshima,hiroshima,34.3848,132.455002,,hiroshima,,Asia/Tokyo
+chh,505,MX,chihuahua,chihuahua,28.5,-106.0,,chihuahua,,America/Mazatlan
+hrm,506,MX,hermosillo,hermosillo,29.0833,-110.949997,,hermosillo,,America/Hermosillo
+vcz,507,MX,veracruz,veracruz,19.187201,-96.136398,,veracruz,,America/Mexico_City
+pbl,508,MX,"puebla, MX",puebla,19.0469,-98.209396,,puebla,,America/Mexico_City
+mzt,509,MX,mazatlan,mazatlan,23.233101,-106.411003,,mazatlan,,America/Mazatlan
+oax,510,MX,oaxaca,oaxaca,17.0833,-96.75,,oaxaca,,America/Mexico_City
+cjs,511,MX,ciudad juarez,juarez,31.7377,-106.487,,ciudad juarez,,America/Mazatlan
+aca,512,MX,acapulco,acapulco,16.8517,-99.909698,,acapulco,,America/Mexico_City
+cnf,513,BR,belo horizonte,belohorizonte,-19.891701,-43.9478,,belo horizonte,,America/Sao_Paulo
+bsb,514,BR,brasilia,brasilia,-15.7883,-47.926498,,brasilia,,America/Sao_Paulo
+pgp,515,BR,porto alegre,portoalegre,-30.0049,-51.185299,,porto alegre,,America/Sao_Paulo
+rec,516,BR,recife,recife,-8.05556,-34.891102,,recife,,America/Fortaleza
+cwb,517,BR,curitiba,curitiba,-25.4687,-49.253502,,curitiba,,America/Sao_Paulo
+ftl,518,BR,fortaleza,fortaleza,-3.82863,-38.595001,,fortaleza,,America/Fortaleza
+hdb,519,DE,heidelberg,heidelberg,49.396702,8.6792,,heidelberg,,Europe/Berlin
+lej,520,DE,leipzig,leipzig,51.333333,12.383333,,leipzig,,Europe/Berlin
+drs,521,DE,dresden,dresden,51.049999,13.7333,,dresden,,Europe/Berlin
+brm,522,DE,bremen,bremen,53.0769,8.80889,,bremen,,Europe/Berlin
+ess,523,DE,essen / ruhr,essen,51.466702,4.46667,,essen / ruhr,,Europe/Brussels
+mpl,524,FR,montpellier,montpellier,43.6119,3.87722,,montpellier,,Europe/Paris
+gnb,525,FR,grenoble,grenoble,45.189999,5.72,,grenoble,,Europe/Paris
+rns,526,FR,brittany,rennes,48.106098,-1.6713,,brittany,,Europe/Paris
+rou,527,FR,normandy,rouen,49.436901,1.08765,,normandy,,Europe/Paris
+bsl,528,CH,basel,basel,47.566002,7.6,,basel,,Europe/Zurich
+brn,529,CH,bern,bern,46.953999,7.44736,,bern,,Europe/Zurich
+peg,530,IT,perugia,perugia,43.116699,12.3833,,perugia,,Europe/Rome
+gen,531,IT,genoa,genoa,44.416698,8.92389,,genoa,,Europe/Rome
+srd,532,IT,sardinia,sardinia,40.0,9.0,,sardinia,,Europe/Rome
+alc,533,ES,alicante,alicante,38.349998,-0.48,,alicante,,Europe/Madrid
+ibz,534,ES,baleares,baleares,39.605701,2.96631,,baleares,,Europe/Madrid
+bio,535,ES,bilbao,bilbao,43.25,-2.9667,,bilbao,,Europe/Madrid
+cdz,536,ES,cadiz,cadiz,36.532299,-6.29173,,cadiz,,Europe/Madrid
+tfn,537,ES,canarias,canarias,28.480801,-16.2738,,canarias,,Atlantic/Canary
+grx,538,ES,granada,granada,37.174198,-3.5975,,granada,,Europe/Madrid
+agp,539,ES,malaga,malaga,36.711899,-4.43573,,malaga,,Europe/Madrid
+lis,540,PT,lisbon,lisbon,38.700001,-9.1833,,lisbon,,Europe/Lisbon
+pto,541,PT,porto,porto,41.166698,-8.58333,,porto,,Europe/Lisbon
+fro,542,PT,faro / algarve,faro,37.02,-7.93,,faro / algarve,,Europe/Lisbon
+mvd,543,UY,montevideo,montevideo,-34.866699,-56.166698,,montevideo,,America/Montevideo
+lux,544,LU,luxembourg,luxembourg,49.611698,6.13,,luxembourg,,Europe/Luxembourg
+qui,545,EC,ecuador,quito,-0.225219,-78.519302,,ecuador,,America/Guayaquil
+zag,546,HR,croatia,zagreb,45.813499,15.9851,,croatia,,Europe/Zagreb
+dvo,547,PH,davao city,davaocity,7.07841,125.612,,davao city,,Asia/Manila
+ceb,548,PH,cebu,cebu,10.4264,123.797997,,cebu,,Asia/Manila
+idr,549,IN,indore,indore,22.7236,75.860603,,indore,,Asia/Calcutta
+jai,550,IN,jaipur,jaipur,26.92,75.82,,jaipur,,Asia/Calcutta
+pal,551,PS,west bank,ramallah,31.9667,35.299999,,west bank,,Asia/Gaza
+rac,552,US,kenosha-racine,racine,42.584702,-87.821098,WI,kenosha-racine,,America/Chicago
+jvl,553,US,"janesville, WI",janesville,42.6828,-89.0186,WI,janesville,,America/Chicago
+mkg,554,US,"muskegon, MI",muskegon,43.2342,-86.248299,MI,muskegon,,America/New_York
+phn,555,US,"port huron, MI",porthuron,42.970798,-82.425003,MI,port huron,,America/New_York
+smd,556,US,southern maryland,smd,38.534199,-76.783401,MD,southern MD,,America/New_York
+ust,557,US,"st augustine, FL",staugustine,29.8944,-81.314697,FL,st augustine,,America/New_York
+jxt,558,US,"jackson, TN",jacksontn,35.614399,-88.813904,TN,"jackson, TN",,America/Chicago
+anb,559,US,gadsden-anniston,gadsden,34.014198,-86.006699,AL,gadsden,,America/Chicago
+msl,560,US,florence / muscle shoals,shoals,34.799702,-87.6772,AL,the shoals,,America/Chicago
+jys,561,US,jersey shore,jerseyshore,40.2225,-74.012199,NJ,jersey shore,,America/New_York
+pfn,562,US,"panama city, FL",panamacity,30.1586,-85.660301,FL,"panama city, FL",,America/Chicago
+mlu,563,US,"monroe, LA",monroe,32.5103,-92.095001,LA,"monroe, LA",,America/Chicago
+vtx,564,US,"victoria, TX",victoriatx,28.805,-97.003304,TX,"victoria, TX",,America/Chicago
+mhv,565,US,mohave county,mohave,35.285999,-114.083,AZ,mohave co,,America/Phoenix
+smo,566,US,southeast missouri,semo,36.879601,-89.587997,MO,southeast MO,,America/Chicago
+wlo,567,US,waterloo / cedar falls,waterloo,42.4925,-92.345802,IA,waterloo,,America/Chicago
+fnm,568,US,"farmington, NM",farmington,36.7281,-108.218002,NM,"farmington, NM",,America/Denver
+dil,569,US,"decatur, IL",decatur,39.840302,-88.954697,IL,"decatur, IL",,America/Chicago
+bwk,570,US,"brunswick, GA",brunswick,31.1497,-81.491699,GA,"brunswick, GA",,America/New_York
+sbm,571,US,"sheboygan, WI",sheboygan,43.750801,-87.714401,WI,"sheboygan, WI",,America/Chicago
+swm,572,US,southwest michigan,swmi,41.984001,-86.066902,MI,southwest MI,,America/New_York
+sky,573,US,"sandusky, OH",sandusky,41.448898,-82.708099,OH,sandusky,,America/New_York
+buh,574,RO,romania,bucharest,44.4333,26.1,,romania,,Europe/Bucharest
+acc,575,GH,ghana,accra,5.55,-0.216667,,ghana,,Africa/Accra
+add,576,ET,ethiopia,addisababa,9.03333,38.700001,,ethiopia,,Africa/Addis_Ababa
+kwi,577,KW,kuwait,kuwait,29.369699,47.978298,,kuwait,,Asia/Kuwait
+lpb,578,BO,bolivia,lapaz,-19.0431,-65.259201,,bolivia,,America/La_Paz
+rkv,579,IS,reykjavik,reykjavik,64.146004,-21.942301,,reykjavik,,Atlantic/Reykjavik
+cas,580,MA,morocco,casablanca,34.02,-6.83,,morocco,,Africa/Casablanca
+tun,581,TN,tunisia,tunis,36.802799,10.1797,,tunisia,,Africa/Tunis
+nbo,582,KE,kenya,kenya,-1.28333,36.8167,,kenya,,Africa/Nairobi
+kbp,583,UA,ukraine,ukraine,50.4333,30.516701,,ukraine,,Europe/Kiev
+sof,584,BG,bulgaria,bulgaria,42.697498,23.3241,,bulgaria,,Europe/Sofia
+gua,585,GT,guatemala,guatemala,14.6211,-90.526901,,guatemala,,America/Guatemala
+mga,586,NI,nicaragua,managua,12.1508,-86.268303,,nicaragua,,America/Managua
+sal,587,SV,el salvador,elsalvador,13.7086,-89.203102,,el salvador,,America/El_Salvador
+bgd,588,IQ,iraq,baghdad,33.3386,44.393902,,iraq,,Asia/Baghdad
+trh,589,IR,iran,tehran,35.671902,51.4244,,iran,,Asia/Tehran
+ool,590,AU,gold coast,goldcoast,-28.0,153.432999,QLD,gold coast,,Australia/Brisbane
+ntl,591,AU,"newcastle, NSW",ntl,-32.927101,151.776001,NSW,"newcastle, NSW",,Australia/Sydney
+cns,592,AU,"cairns, QLD",cairns,-16.9167,145.766998,QLD,cairns,,Australia/Brisbane
+wol,593,AU,"wollongong, NSW",wollongong,-34.4333,150.882996,NSW,wollongong,,Australia/Sydney
+dud,594,NZ,"dunedin, NZ",dunedin,-45.891918,170.506439,,dunedin,,Pacific/Auckland
+hpr,595,ZA,pretoria,pretoria,-25.7069,28.229401,,pretoria,,Africa/Johannesburg
+sdj,596,JP,sendai,sendai,38.266667,140.866667,,sendai,,Asia/Tokyo
+wuh,597,CN,wuhan,wuhan,30.591,114.305,,wuhan,,Asia/Chongqing
+she,598,CN,shenyang,shenyang,41.8038,123.4341,,shenyang,,Asia/Chongqing
+nkg,599,CN,nanjing,nanjing,32.05,118.766667,,nanjing,,Asia/Chongqing
+dlc,600,CN,dalian,dalian,38.912201,121.601997,,dalian,,Asia/Chongqing
+ckg,601,CN,chongqing,chongqing,29.558333,106.566667,,chongqing,,Asia/Chongqing
+ctu,602,CN,chengdu,chengdu,30.6667,104.067001,,chengdu,,Asia/Chongqing
+xiy,603,CN,xi'an,xian,34.266667,108.9,,xi'an,,Asia/Chongqing
+cdo,604,PH,cagayan de oro,cdo,8.48222,124.647003,,cagayan de oro,,Asia/Manila
+ilo,605,PH,iloilo,iloilo,10.6969,122.564003,,iloilo,,Asia/Manila
+bcd,606,PH,bacolod,bacolod,10.6311,122.978996,,bacolod,,Asia/Manila
+zam,607,PH,zamboanga,zamboanga,6.91028,122.073997,,zamboanga,,Asia/Manila
+crk,608,PH,pampanga,pampanga,15.2233,120.579002,,pampanga,,Asia/Manila
+wnp,609,PH,bicol region,naga,13.5,123.5,,bicol region,,Asia/Manila
+ixc,610,IN,chandigarh,chandigarh,30.7372,76.787201,,chandigarh,,Asia/Calcutta
+lko,611,IN,lucknow,lucknow,26.847,80.947,,lucknow,,Asia/Calcutta
+bbi,612,IN,bhubaneswar,bhubaneswar,20.27,85.84,,bhubaneswar,,Asia/Calcutta
+svt,613,IN,surat surat,surat,21.1667,72.833298,,surat surat,,Asia/Calcutta
+nue,614,DE,nuremberg,nuremberg,49.4478,11.0683,,nuremberg,,Europe/Berlin
+lau,615,CH,lausanne,lausanne,46.518902,6.67636,,lausanne,,Europe/Zurich
+vrg,616,VI,virgin islands,virgin,18.3419,-64.930702,,virgin islands,,America/St_Thomas
+sdq,617,DO,dominican republic,santodomingo,18.4667,-69.900002,,dominican,,America/Santo_Domingo
+klt,618,DE,kaiserslautern,kaiserslautern,49.450001,7.75,,kaiserslautern,,Europe/Berlin
+hat,619,CA,"medicine hat, AB",hat,50.050098,-110.667999,AB,medicine hat,,America/Edmonton
+pax,620,CA,peace river country,peace,56.250099,-117.286003,AB,peace country,,America/Edmonton
+cbo,621,CA,"cariboo, BC",cariboo,53.169827,-122.527771,BC,cariboo,,America/Vancouver
+sun,622,CA,"sunshine coast, BC",sunshine,49.998901,-123.753998,BC,sunshine coast,,America/Vancouver
+ske,623,CA,skeena-bulkley,skeena,54.2328,-129.837006,BC,skeena-bulkley,,America/Vancouver
+ykf,624,CA,"yellowknife, NT",yellowknife,62.456001,-114.352997,NT,yellowknife,,America/Edmonton
+whh,625,CA,"whitehorse, YT",whitehorse,60.716099,-135.054001,YK,whitehorse,,America/Vancouver
+bfd,626,CA,brantford-woodstock,brantford,43.1334,-80.266403,ON,brantford,,America/Toronto
+thb,627,US,"the thumb, MI",thumb,43.417019,-83.092346,MI,the thumb,,America/New_York
+btc,628,US,"battle creek, MI",battlecreek,42.321201,-85.179703,MI,battle creek,,America/New_York
+mnr,629,US,"monroe, MI",monroemi,41.916,-83.397697,MI,"monroe, MI",,America/New_York
+hld,630,US,"holland, MI",holland,42.787498,-86.108902,MI,holland,,America/New_York
+nwi,631,US,northern WI,northernwi,45.638901,-89.412498,WI,northern WI,,America/Chicago
+swv,632,US,southern WV,swv,37.779499,-81.183296,WV,southern WV,,America/New_York
+fdk,633,US,"frederick, MD",frederick,39.414299,-77.4105,MD,frederick,,America/New_York
+oaj,634,US,"jacksonville, NC",onslow,34.758801,-77.4244,NC,"jacksonville, NC",,America/New_York
+tbr,635,US,"statesboro, GA",statesboro,32.448799,-81.783203,GA,statesboro,,America/New_York
+nwg,636,US,northwest GA,nwga,34.5,-84.942001,GA,northwest GA,,America/New_York
+aby,637,US,"albany, GA",albanyga,31.575026,-84.159393,GA,"albany, GA",,America/New_York
+lcq,638,US,north central FL,lakecity,30.189199,-82.639503,FL,lake city,,America/New_York
+cfl,639,US,heartland florida,cfl,27.5392,-81.509903,FL,heartland FL,,America/New_York
+vps,640,US,okaloosa / walton,okaloosa,30.7621,-86.570503,FL,okaloosa,,America/Chicago
+mei,641,US,"meridian, MS",meridian,32.3643,-88.703697,MS,meridian,,America/Chicago
+hez,642,US,southwest MS,natchez,31.554199,-91.387497,MS,southwest MS,,America/Chicago
+hum,643,US,"houma, LA",houma,29.5958,-90.719498,LA,houma,,America/Chicago
+aex,644,US,central louisiana,cenla,31.297327,-92.469177,LA,central LA,,America/Chicago
+och,645,US,deep east texas,nacogdoches,31.604271,-94.654083,TX,deep east TX,,America/Chicago
+sjt,646,US,"san angelo, TX",sanangelo,31.452999,-100.452499,TX,san angelo,,America/Chicago
+drt,647,US,del rio / eagle pass,delrio,29.372601,-100.898438,TX,del rio,,America/Chicago
+wtx,648,US,southwest TX,bigbend,29.200123,-103.293457,TX,southwest TX,,America/Chicago
+txm,649,US,texoma,texoma,33.832001,-96.571098,TX,texoma,,America/Chicago
+end,650,US,northwest OK,enid,36.431702,-97.895302,OK,northwest OK,,America/Chicago
+sow,651,US,"show low, AZ",showlow,34.2542,-110.029999,AZ,show low,,America/Phoenix
+elk,652,US,"elko, NV",elko,40.832401,-115.763,NV,elko,,America/Los_Angeles
+cvn,653,US,clovis / portales,clovis,34.40691,-103.200073,NM,clovis-portales,,America/Denver
+lws,654,US,lewiston / clarkston,lewiston,46.392399,-116.992996,ID,lewiston,,America/Los_Angeles
+mlk,655,US,"moses lake, WA",moseslake,47.1301,-119.278,WA,moses lake,,America/Los_Angeles
+mso,656,US,"missoula, MT",missoula,46.872101,-113.994003,MT,missoula,,America/Denver
+bil,657,US,"billings, MT",billings,45.783298,-108.500999,MT,billings,,America/Denver
+bzn,658,US,"bozeman, MT",bozeman,45.679699,-111.039001,MT,bozeman,,America/Denver
+hln,659,US,"helena, MT",helena,46.592842,-112.022095,MT,helena,,America/Denver
+gtf,660,US,"great falls, MT",greatfalls,47.500198,-111.301003,MT,great falls,,America/Denver
+btm,661,US,"butte, MT",butte,46.004593,-112.543945,MT,butte,,America/Denver
+fca,662,US,"kalispell, MT",kalispell,48.195801,-114.313004,MT,kalispell,,America/Denver
+bji,663,US,"bemidji, MN",bemidji,47.473598,-94.880302,MN,bemidji,,America/Chicago
+brd,664,US,"brainerd, MN",brainerd,46.354511,-94.196777,MN,brainerd,,America/Chicago
+mml,665,US,southwest MN,marshall,44.447201,-95.787804,MN,southwest MN,,America/Chicago
+bis,666,US,"bismarck, ND",bismarck,46.807579,-100.777588,ND,bismarck,,America/Chicago
+gfk,667,US,grand forks,grandforks,47.925301,-97.032898,ND,grand forks,,America/Chicago
+lbf,668,US,"north platte, NE",northplatte,41.123901,-100.764999,NE,north platte,,America/Chicago
+bff,669,US,scottsbluff / panhandle,scottsbluff,41.8666,-103.667,NE,scottsbluff,,America/Denver
+coo,670,US,"cookeville, TN",cookeville,36.1628,-85.501602,TN,cookeville,,America/Chicago
+rin,671,US,"richmond, IN",richmondin,39.829632,-84.890671,IN,"richmond, IN",,America/New_York
+okk,672,US,"kokomo, IN",kokomo,40.486401,-86.133598,IN,kokomo,,America/New_York
+owb,673,US,"owensboro, KY",owensboro,37.7742,-87.113297,KY,owensboro,,America/Chicago
+eky,674,US,eastern kentucky,eastky,37.516998,-82.806,KY,eastern KY,,America/New_York
+klf,675,US,"klamath falls, OR",klamath,42.224899,-121.781998,OR,klamath falls,,America/Los_Angeles
+jnu,676,US,southeast alaska,juneau,58.355629,-134.571533,AK,southeast AK,,America/Anchorage
+fai,677,US,"fairbanks, AK",fairbanks,64.837799,-147.716003,AK,fairbanks,,America/Anchorage
+ena,678,US,kenai peninsula,kenai,60.554401,-151.257996,AK,kenai,,America/Anchorage
+fsd,679,US,sioux falls / SE SD,siouxfalls,43.549999,-96.700302,SD,sioux falls,,America/Chicago
+rap,680,US,rapid city / west SD,rapidcity,44.080502,-103.231003,SD,rapid city,,America/Denver
+csd,681,US,pierre / central SD,csd,44.551334,-100.579834,SD,central SD,,America/Denver
+abr,682,US,northeast SD,nesd,45.3367,-97.646484,SD,northeast SD,,America/Chicago
+ptd,683,US,potsdam-canton-massena,potsdam,44.668652,-74.998169,NY,potsdam-massena,,America/New_York
+onh,684,US,"oneonta, NY",oneonta,42.447781,-75.06958,NY,oneonta,,America/New_York
+fgl,685,US,"finger lakes, NY",fingerlakes,42.516651,-76.816406,NY,finger lakes,,America/New_York
+gfl,686,US,"glens falls, NY",glensfalls,43.309502,-73.643997,NY,glens falls,,America/New_York
+swk,687,US,southwest KS,swks,37.04641,-100.931396,KS,southwest KS,,America/Chicago
+nwk,688,US,northwest KS,nwks,39.095963,-100.50293,KS,northwest KS,,America/Chicago
+sek,689,US,southeast KS,seks,37.230328,-95.718384,KS,southeast KS,,America/Chicago
+sns,690,US,"salina, KS",salina,38.825001,-97.607498,KS,salina,,America/Chicago
+otu,691,US,southeast IA,ottumwa,41.0075,-92.408798,IA,southeast IA,,America/Chicago
+msc,692,US,"mason city, IA",masoncity,43.153599,-93.200996,IA,mason city,,America/Chicago
+ftd,693,US,"fort dodge, IA",fortdodge,42.497501,-94.167999,IA,fort dodge,,America/Chicago
+stj,694,US,st joseph,stjoseph,39.7686,-94.846603,MO,st joseph,,America/Chicago
+loz,695,US,lake of the ozarks,loz,38.202499,-92.626297,MO,lake of ozarks,,America/Chicago
+krk,696,US,"kirksville, MO",kirksville,40.194801,-92.583298,MO,kirksville,,America/Chicago
+qcy,697,US,western IL,quincy,39.935013,-91.389771,IL,western IL,,America/Chicago
+lsl,698,US,la salle co,lasalle,41.337639,-89.082642,IL,la salle co,,America/Chicago
+mto,699,US,mattoon-charleston,mattoon,39.483101,-88.372803,IL,mattoon,,America/Chicago
+jfn,700,US,"ashtabula, OH",ashtabula,41.865101,-80.789803,OH,ashtabula,,America/New_York
+chl,701,US,"chillicothe, OH",chillicothe,39.333099,-82.982399,OH,chillicothe,,America/New_York
+zvl,702,US,zanesville / cambridge,zanesville,39.9403,-82.013199,OH,zanesville,,America/New_York
+nph,703,US,tuscarawas co,tuscarawas,40.4501,-81.466499,OH,tuscarawas co,,America/New_York
+tts,704,US,twin tiers NY/PA,twintiers,41.875301,-78.875,NY,twin tiers,,America/New_York
+cbg,705,US,cumberland valley,chambersburg,39.9333,-77.633301,PA,cumberland val,,America/New_York
+mdv,706,US,"meadville, PA",meadville,41.641399,-80.151497,PA,meadville,,America/New_York
+ssn,707,US,"susanville, CA",susanville,40.416302,-120.653,CA,susanville,,America/Los_Angeles
+ssk,708,US,siskiyou county,siskiyou,41.208199,-122.272003,CA,siskiyou co,,America/Los_Angeles
+hnf,709,US,hanford-corcoran,hanford,36.3274,-119.646004,CA,hanford,,America/Los_Angeles
+smx,710,US,"santa maria, CA",santamaria,34.963799,-120.433296,CA,santa maria,,America/Los_Angeles
+okv,711,US,"winchester, VA",winchester,39.178299,-78.166603,VA,winchester,,America/New_York
+vaw,712,US,southwest VA,swva,36.892803,-82.084351,VA,southwest VA,,America/New_York
+eco,713,US,eastern CO,eastco,39.232254,-102.832031,CO,eastern CO,,America/Denver

@@ -14,7 +14,7 @@ import numpy as np
 
 
 
-OPENAI_API_KEY = 'REMOVE AND ADD YOUR API KEY HERE BETWEEN THE SINGLE QUOTES'  # Replace with your actual OpenAI API key
+OPENAI_API_KEY = 'Your API Key Here'  # Replace with your actual OpenAI API key
 
 
 def read_csv(file_path):
@@ -463,13 +463,13 @@ area_combobox.current(0)
 
 # Categories Dropdown
 ttk.Label(root, text="Select Category:").grid(row=1, column=0)
-category_combobox = ttk.Combobox(root, values=[f"{item['Abbreviation']} - {item['Description']}" for item in categories_data])
+category_combobox = ttk.Combobox(root, width = 30, values=[f"{item['Abbreviation']} - {item['Description']}" for item in categories_data])
 category_combobox.grid(row=1, column=1)
 category_combobox.current(0)
 
 # Query Entry
 ttk.Label(root, text="Enter Query:").grid(row=2, column=0)
-query_entry = ttk.Entry(root, width=40)
+query_entry = ttk.Entry(root, width=30)
 query_entry.grid(row=2, column=1)
 
 # Number of Posts Dropdown

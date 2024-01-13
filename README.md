@@ -71,7 +71,6 @@ font_path = "/usr/share/fonts/truetype/liberation/LiberationSans-Regu
 * If you encounter errors related to missing dependencies, make sure you have installed the required Python packages by running `pip install -r requirements.txt`
 * If you encounter errors related to FFmpeg, make sure it is installed on your system and available in your system's PATH.
 * https://platform.openai.com/account/api-keys
-* https://beta.elevenlabs.io/subscription Click user icon then profile
 * Keep your keys safe
 
  

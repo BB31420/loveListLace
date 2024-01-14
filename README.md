@@ -1,7 +1,7 @@
 # LoveListLace
 An AI-powered storytelling video generator that takes real-time Craigslist data, generates a story using OpenAI's GPT-4, creates images using OpenAI's DALL-E 3, adds voiceover using OpenAI, and combines the elements into a video.
 
-![gui](https://i.imgur.com/Hq7osfR.png
+![gui](https://i.imgur.com/Hq7osfR.png)
 
 ## Video Examples
 [![Example 0](https://img.youtube.com/vi/L049Xi_POaU/0.jpg)](https://www.youtube.com/watch?v=L049Xi_POaU)

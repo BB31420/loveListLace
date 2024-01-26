@@ -259,7 +259,7 @@ def generate_openai_image_response():
         messagebox.showerror("Error", f"An error occurred: {e}")
 
 
-def generate_neetai_audio_response():
+def generate_neetsai_audio_response():
     selected_area = area_combobox.get()
     selected_category = category_combobox.get().split(" - ")[0]
     
@@ -298,7 +298,7 @@ def generate_neetai_audio_response():
                 url="https://api.neets.ai/v1/tts",
                 headers={
                     "Content-Type": "application/json",
-                    "X-API-Key": "Your Neet.Ai API Key"
+                    "X-API-Key": "Your neets.Ai API Key"
                 },
                 json={
                     "text": selected_text,
@@ -505,7 +505,7 @@ generate_image_button = ttk.Button(root, text="Generate Image from OpenAI Respon
 generate_image_button.grid(row=7, columnspan=2)
 
 # Add a button to generate OpenAI audio response
-generate_audio_button = ttk.Button(root, text="Generate NeetAI Audio Response", command=generate_neetai_audio_response)
+generate_audio_button = ttk.Button(root, text="Generate neetsAI Audio Response", command=generate_neetsai_audio_response)
 generate_audio_button.grid(row=8, columnspan=2)
 
 # Add a button to create a video

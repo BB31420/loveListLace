@@ -115,7 +115,7 @@ def fetch_posts_contents():
         print(f"An error occurred: {e}")
 
 
-def generate_neetai_response():
+def generate_openai_response():
     selected_area = area_combobox.get()
     selected_category = category_combobox.get().split(" - ")[0]
     
@@ -497,7 +497,7 @@ fetch_posts_button = ttk.Button(root, text="Fetch Posts Contents", command=fetch
 fetch_posts_button.grid(row=5, columnspan=2)
 
 # Add a button to trigger OpenAI API request
-generate_openai_button = ttk.Button(root, text="Generate OpenAI Response", command=generate_neetai_response)
+generate_openai_button = ttk.Button(root, text="Generate OpenAI Response", command=generate_openai_response)
 generate_openai_button.grid(row=6, columnspan=2)
 
 # Add a button to trigger OpenAI image generation

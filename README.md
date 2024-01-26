@@ -52,9 +52,12 @@ This helps keep packages seperate to avoid conflicts. Use the venv when running 
 
 1. Edit the file named main.py in the project directory and add your API key: 
 
- `OPENAI_API_KEY='your_openai_api_key'`
 
- * Replace your_openai_api_key with your actual API keys.
+ * Replace your_openai_api_key with your actual [OpenAi](openai.com) keys:
+ `OPENAI_API_KEY='your_openai_api_key'`
+ * Replace with your [Neets API Key](neets.ai):
+ `"X-API-Key": "Your Neet.Ai API Key"`
+
 
 2. Edit the file named main.py with your desired font path, specify the directory and font name.
  * Modify font path

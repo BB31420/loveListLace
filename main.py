@@ -115,7 +115,7 @@ def fetch_posts_contents():
         print(f"An error occurred: {e}")
 
 
-def generate_openai_response():
+def generate_neetai_response():
     selected_area = area_combobox.get()
     selected_category = category_combobox.get().split(" - ")[0]
     
@@ -259,7 +259,7 @@ def generate_openai_image_response():
         messagebox.showerror("Error", f"An error occurred: {e}")
 
 
-def generate_openai_audio_response():
+def generate_neetai_audio_response():
     selected_area = area_combobox.get()
     selected_category = category_combobox.get().split(" - ")[0]
     
@@ -267,7 +267,6 @@ def generate_openai_audio_response():
         with open(f"{selected_area}_{selected_category}_openai_response.txt", 'r') as file:
             openai_response_text = file.read().strip()
         
-        client = OpenAI(api_key=OPENAI_API_KEY)  # Initialize the client with your API key
         
         # Create a Toplevel window for user input
         audio_settings_window = tk.Toplevel(root)
@@ -278,30 +277,42 @@ def generate_openai_audio_response():
         response_text_widget = tk.Text(audio_settings_window, height=10, width=50, wrap="word")
         response_text_widget.insert(tk.END, openai_response_text)
         response_text_widget.pack(pady=10)
-        
+                
         # Label for voice selection
         ttk.Label(audio_settings_window, text="Select Voice for Audio Response:").pack(pady=10)
         
         # Combobox for voice selection
-        voice_options = ["alloy", "echo", "fable", "nova", "onyx", "shimmer"]
-        selected_voice = tk.StringVar()
-        voice_combobox = ttk.Combobox(audio_settings_window, textvariable=selected_voice, values=voice_options)
+        voice_options = ["50-cent","alex-jones","anderson-cooper","andrew-tate","andrew-yang","angela-merkel","angie","anna-kendrick","anthony-fauci","antonio-banderas","aoc","ariana-grande","arnold-schwarzenegger","ben-affleck","ben-shapiro","bernie-sanders","beyonce","bill-clinton","bill-gates","bill-oreilly","billie-eilish","cardi-b","casey-affleck","charlamagne","conor-mcgregor","darth-vader","demi-lovato","dj-khaled","donald-trump","dr-dre","dr-phil","drake","dwayne-johnson","elizabeth-holmes","ellen-degeneres","elon-musk","emma-watson","gilbert-gottfried","greta-thunberg","grimes","hillary-clinton","jason-alexander","jay-z","jeff-bezos","jerry-seinfeld","jim-cramer","joe-biden","joe-rogan","john-cena","jordan-peterson","justin-bieber","justin-trudeau","kamala-harris","kanye-west","kardashian","kermit","kevin-hart","lex-fridman","lil-wayne","mark-zuckerberg","martin-shkreli","matt-damon","matthew-mcconaughey","mike-tyson","morgan-freeman","patrick-stewart","paul-mccartney","pokimane","prince-harry","rachel-maddow","robert-downey-jr","ron-desantis","sam-altman","samuel-jackson","sbf","scarlett-johansson","sean-hannity","snoop-dogg","stephen-hawking","taylor-swift","tucker-carlson","tupac","warren-buffett","will-smith","william"]
+        pick_voice = tk.StringVar()
+        voice_combobox = ttk.Combobox(audio_settings_window, textvariable=pick_voice, values=voice_options)
         voice_combobox.pack(pady=10)
-        voice_combobox.set("nova")  # Default voice selection
+        voice_combobox.set("william")  # Default voice selection
         
         def generate_audio_with_selected_voice():
             try:
-                response = client.audio.speech.create(
-                    model="tts-1",
-                    voice=selected_voice.get(),
-                    input=openai_response_text
+                
+                selected_text = response_text_widget.get("1.0", tk.END).strip()
+                selected_voice = pick_voice.get()
+                response = requests.request(
+                method="POST",
+                url="https://api.neets.ai/v1/tts",
+                headers={
+                    "Content-Type": "application/json",
+                    "X-API-Key": "Your Neet.Ai API Key"
+                },
+                json={
+                    "text": selected_text,
+                    "voice_id": selected_voice,
+                    "params": {
+                    "model": "ar-diff-50k"
+                    }
+                }
                 )
-                
-                speech_file_path = Path(__file__).parent / f"{selected_area}_{selected_category}_speech.mp3"
-                
                 # Save the audio to the specified file path
-                with open(speech_file_path, 'wb') as audio_file:
+                speech_file_path = Path(__file__).parent / f"{selected_area}_{selected_category}_speech.mp3"
+                with open(speech_file_path, "wb") as audio_file:
                     audio_file.write(response.content)
+                
                     
                 print(f"Audio file saved successfully as {speech_file_path}")
                 # Close the Toplevel window after saving the audio
@@ -331,7 +342,6 @@ def generate_openai_audio_response():
         # Bring the main application window to the foreground
         root.lift()
         messagebox.showerror("Error", f"An error occurred: {e}")
-
 
 
 def generate_video_from_image_and_audio(image_path, audio_path, output_path):
@@ -487,7 +497,7 @@ fetch_posts_button = ttk.Button(root, text="Fetch Posts Contents", command=fetch
 fetch_posts_button.grid(row=5, columnspan=2)
 
 # Add a button to trigger OpenAI API request
-generate_openai_button = ttk.Button(root, text="Generate OpenAI Response", command=generate_openai_response)
+generate_openai_button = ttk.Button(root, text="Generate OpenAI Response", command=generate_neetai_response)
 generate_openai_button.grid(row=6, columnspan=2)
 
 # Add a button to trigger OpenAI image generation
@@ -495,7 +505,7 @@ generate_image_button = ttk.Button(root, text="Generate Image from OpenAI Respon
 generate_image_button.grid(row=7, columnspan=2)
 
 # Add a button to generate OpenAI audio response
-generate_audio_button = ttk.Button(root, text="Generate OpenAI Audio Response", command=generate_openai_audio_response)
+generate_audio_button = ttk.Button(root, text="Generate NeetAI Audio Response", command=generate_neetai_audio_response)
 generate_audio_button.grid(row=8, columnspan=2)
 
 # Add a button to create a video

@@ -53,9 +53,9 @@ This helps keep packages seperate to avoid conflicts. Use the venv when running 
 1. Edit the file named main.py in the project directory and add your API key: 
 
 
- * Replace your_openai_api_key with your actual [OpenAi](openai.com) keys:
+ * Replace your_openai_api_key with your actual [OpenAi](https://www.openai.com) keys:
  `OPENAI_API_KEY='your_openai_api_key'`
- * Replace with your [Neets API Key](neets.ai):
+ * Replace with your [Neets API Key](https://www.neets.ai):
  `"X-API-Key": "Your Neet.Ai API Key"`
 
 

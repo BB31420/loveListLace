@@ -8,7 +8,12 @@ An AI-powered storytelling video generator that takes real-time Craigslist data,
 [![Example 1](https://img.youtube.com/vi/ZyY20n5VyQA/0.jpg)](https://www.youtube.com/watch?v=ZyY20n5VyQA)
 
 
-### To DO: Add zoom in feature for image to add a sense of motion. All contributors are welcome. 
+### To DO & Contributions: 
+1. The code in main.py is WET(Write everything twice), we need to DRY(Don't repeat yourself) it out by changing how it handles file paths and variables.
+2. Converting the code to object oriented classes will make it modular and easier to maintain.
+3. OpenAi has increased the API limit for high quality images to 5 per minute. We should add the ability to specify the amount of images to create and merge.
+4. Zoom, pan, fade, and other editing effects can be added with ffmpeg.
+5. Offline Ai models are becoming easier to use. Running this code offline can save costs but introduces a new level of difficutly in sourcing and running the models. Can we implement this effectively?
 
 
 ## Getting Started

@@ -29,7 +29,10 @@ These instructions will help you set up the project on your local machine.
 ### Create Virtual Environment
 This helps keep packages seperate to avoid conflicts. Use the venv when running the code and before installing the required packages. The code requires openai 0.28, which is specified in the requirements.txt. 
 
-1. Navigate to the project directory with ```cd``` ```ls -la```
+1. Make a project folder where the virtual environment and code will be stored. 
+ * Windows: ```mkdir loveListLace_project```
+ * Linux: ```mkdir loveListLace_project```   
+2. Navigate to the project directory with: ```cd``` ```ls -la``` use tab key to auto complete instead of typing out the full file/folder names.
  * Windows: ```python -m venv .venv``` then ```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser```
  * Linux: ```python3 -m venv .venv```
 3. Activate the venv
@@ -42,7 +45,7 @@ This helps keep packages seperate to avoid conflicts. Use the venv when running 
 ### Installation
 
 1. Clone the repository: ```git clone git@github.com:BB31420/loveListLace.git```
-2. Navigate to the project directory: ```cd loveListLace```
+2. Navigate to the cloned code directory: ```cd loveListLace```
 3. Install the required Python packages: ```pip install -r requirements.txt```
 4. Install FFmpeg:
 - On macOS, you can use Homebrew: brew install ffmpeg
@@ -74,7 +77,7 @@ font_path = "/usr/share/fonts/truetype/liberation/LiberationSans-Regu
 3. Run the main.py script by navigating to the project directory. Output will be generated in the same folder: 
 
 * Windows: `python main.py`
-* Linux: 'python3 main.py'
+* Linux: `python3 main.py`
 4. Follow the prompts to enter a story prompt and generate a video.
 
 ### Troubleshooting
